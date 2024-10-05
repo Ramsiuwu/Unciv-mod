@@ -72,8 +72,8 @@
 			"Q'Dhihien"]
 	},
 	{
-  "name": "Humsnos",
-		"leaderName": "Azog",
+  "name": "Humanos",
+		"leaderName": "Carlomagno",
 		"adjective": ["Humano"],
 		"startBias": ["Forest"],
 		"preferredVictoryType": "Domination",
@@ -102,8 +102,8 @@
 		"outerColor": [16,16,16],
 		"innerColor": [255,200,200],
 		"unique": "MANIFEST_DESTINY",
-		"cities": ["Mordor","Gungabad","Orgrimmar","Felhammer","Khazad-dûm","Grishna'ks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
+			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
 			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
 			"Q'Dhihien"]
 	},
