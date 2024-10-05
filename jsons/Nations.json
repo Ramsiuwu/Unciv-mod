@@ -75,7 +75,7 @@
   "name": "Humanos",
 		"leaderName": "Carlomagno",
 		"adjective": ["Humano"],
-		"startBias": ["Forest"],
+		"startBias": ["Grasslands"],
 		"preferredVictoryType": "Domination",
 		
 		"startIntroPart1": "¡Prepárense para la guerra!",
