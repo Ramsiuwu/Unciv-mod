@@ -197,11 +197,11 @@
         {
                 "name": "Imperio de las bestias",
                 "leaderName": "Rozagh",
-                "adjective": ["Beastmen"],
+                "adjective": ["Hombres bestia"],
                 "preferredVictoryType": "Domination",
 
-                "startIntroPart1": ".",
-                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "Gran Rozagh, líder de los Hombres Bestia. Tu ferocidad y destreza en la batalla te han elevado a la cima de tu pueblo. Temidos y respetados, los Hombres Bestia arrasan aldeas y pueblos a su paso, dejando una estela de destrucción. Tu liderazgo ha forjado un ejército poderoso, listo para enfrentar cualquier desafío que se interponga en su camino.",
+                "startIntroPart2": "Gran Rozagh, tu gente te sigue con fervor. ¿Conquistarás nuevas tierras y someterás a aquellos que se atrevan a desafiarte? ¿Destruirás a tus enemigos con la fuerza de tu mano? ¿Podrás forjar un imperio que resista la prueba del tiempo en un mundo lleno de conflictos?",
 
                 "declaringWar": "Blow the horns, bang the drums, Rozagh is coming to town!",
                 "attacked": "Agh, you mess with me, you'll pay, you'll pay...",
@@ -227,9 +227,9 @@
 
         //Sylvanna of Elven Kingdom
         {
-                "name": "Elven Kingdom",
+                "name": "Elfos del bisque",
                 "leaderName": "Sylvanna",
-                "adjective": ["Elven"],
+                "adjective": ["Elfo silvano"],
                 "startBias": ["Forest"],
                 "preferredVictoryType": "Cultural",
 
