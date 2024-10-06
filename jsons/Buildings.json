@@ -1,25 +1,381 @@
 [
-	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
-]
+        //Dwarven Kingdom
+
+        /* No need anymore
+        {
+                "name": "Higba's Legacy",
+                "uniqueTo": "Dwarven Kingdom",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unbuildable", "Unsellable", "Must be on [Hill]", "Will not be displayed in Civilopedia",
+                                        "Destroyed when the city is captured", "Cannot be purchased",
+                                        "[+1 Production] [in this city] <starting from the [Classical era]>",
+                                        "[+1 Production] [in this city] <starting from the [Renaissance era]>",
+                                        "[+1 Production] [in this city] <starting from the [Modern era]>",
+                                        "[+1 Production] [in this city] <starting from the [Information era]>"]
+        },
+        No need anymore */ 
+        {
+                "name": "Tinkerer's Depot",
+                "uniqueTo": "Dwarven Kingdom",
+                "replaces": "Observatory",
+                "maintenance": 0,
+                "percentStatBonus": {"science": 50},
+                "uniques": ["Can be built in all cities"],
+                "requiredTech": "Astronomy",
+                "civilopediaText": [
+                        {"text": "Dwarven tinkerer often has their own place to tinker and mess around with their invention."},
+        ]
+        },
+
+        //Drow Village
+        {
+                "name": "Training Ground",
+                "replaces": "Barracks",
+                "uniqueTo": "Drow Village",
+                "hurryCostModifier": 25,
+                "happiness": 1,
+                "maintenance": 1,
+                "uniques": ["Destroyed when the city is captured", "New [Military] units start with [25] Experience [in this city]"],
+                "requiredTech": "Bronze Working",
+                "civilopediaText": [
+                        {"text": "Drow trains to the death in this place."},
+        ]
+        },
+
+        //Uldra
+        {
+                "name": "Iceygloo",
+                "replaces": "Workshop",
+                "uniqueTo": "Uldra",
+                "maintenance": 2,
+                "production": 2,
+                "specialistSlots": {"Engineer": 1},
+                "hurryCostModifier": 25,
+                "percentStatBonus": {"production": 10},
+                "requiredTech": "Metal Casting"
+                "uniques": ["[20]% Food is carried over after population increases [in this city]", "[+1 Production] from [Tundra] tiles [in this city]"],
+                "civilopediaText": [
+                        {"text": "A place for storage, both food and non-food. To protect it from the harsh cold of the arctic."},
+        ]
+        },
+        /* NO NEED ANYMORE
+        {
+                "name": "TundraFreePop",
+                "uniqueTo": "Uldra",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Must be on [Tundra]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+                                        "[+1] population [in this city]"]
+        },
+        {
+                "name": "SnowFreePop",
+                "uniqueTo": "Uldra",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Must be on [Snow]", "Will not be displayed in Civilopedia", "Destroyed when the city is captured",
+                                        "[+1] population [in this city]"]
+        },
+        NO NEED ANYMORE */
+
+        /* No need anymore
+        //Merfolk Council
+        {
+                "name": "CoastCulture",
+                "uniqueTo": "Merfolk Council",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Must be on [Coastal]", "Will not be displayed in Civilopedia", "[+3 Culture] [in this city] <after discovering [Drama and Poetry]>"]
+        },
+        No need anymore */
+
+        //Elven Kingdom
+        {
+                "name": "Ancestor Tree",
+                "uniqueTo": "Elven Kingdom",
+                "cost": 175,
+                "culture": 1,
+                "faith": 1,
+        //        "isNationalWonder": true,
+        "uniques": ["Cannot be purchased", "[+1 Faith, +1 Culture] from every [Ancestor Tree] <in cities with a [Palace]>",
+        //                                "Unbuildable", "Unsellable", "Never destroyed when the city is captured"
+                                        ],
+                "requiredTech": "Civil Service",
+                "civilopediaText": [
+                        {"text": "A tree sprout from the fallen body of the first ever Elven. Ancestor Tree is a sacred site, a rememberance of the ever-changing nature of life."},
+        ]
+        },
+
+                /* Scrapped concept
+                {
+                        "name": "Ancestor Tree Sapling",
+                        "uniqueTo": "Elven Kingdom",
+                        "cost": 175,
+                        "culture": 2,
+                        "faith": 1,
+                        "requiredTech": "Civil Service",
+                        "civilopediaText": [
+                                {"text": ""},
+                        ]
+                },
+                */
+
+        //Orz'athoth of Children of Deep Dweller
+        {
+                "name": "Old God Monument",
+                "uniqueTo": "Children of Deep Dweller",
+                "culture": 1,
+                "faith": 1,
+                "science": 1,
+                "cost": 40,
+                "hurryCostModifier": 40,
+                "maintenance": 1,
+                "uniques": ["Destroyed when the city is captured", "New [Military] units start with [10] Experience [in this city]"],
+                "civilopediaText": [
+                        {"text": "Monument for the Old God. An altar of worship."},
+        ]
+        },
+
+        //Vigilo Order
+        {
+                "name": "Alchemical Society",
+                "replaces": "University",
+                "uniqueTo": "Vigilo Order",
+                "maintenance": 2,
+                "hurryCostModifier": 15,
+                "percentStatBonus": {"science": 33},
+                "specialistSlots": {"Alchemist": 2},
+                "requiredBuilding": "Library",
+                "uniques": ["[+2 Science] from [Jungle] tiles [in this city]", "+2 Alchemist slots (+3 [Science], +5 Great Scientist Point from each)"],
+                "requiredTech": "Education",
+                "civilopediaText": [
+                        {"text": "A place to learn for young alchemist."},
+        ]
+        },
+
+        //Argonautian States
+        /* NO NEED ANYMORE
+        {
+                "name": "Recall Achilles",
+                "uniqueTo": "Argonautian States",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Classical era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
+                                        "Free [Achilles] appears"]
+        },
+        {
+                "name": "Recall Orion",
+                "uniqueTo": "Argonautian States",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Medieval era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
+                                        "Free [Orion] appears"]
+        },
+        {
+                "name": "Recall Agathinus",
+                "uniqueTo": "Argonautian States",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Renaissance era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
+                                        "Free [Agathinus] appears"]
+        },
+        {
+                "name": "Recall Daedalus",
+                "uniqueTo": "Argonautian States",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Industrial era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
+                                        "Free [Daedalus] appears"]
+        },
+        {
+                "name": "Recall Theopompus",
+                "uniqueTo": "Argonautian States",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Modern era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
+                                        "Free [Theopompus] appears"]
+        },
+        {
+                "name": "Recall Castor & Pollux",
+                "uniqueTo": "Argonautian States",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Atomic era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
+                                        "Free [Castor] appears", "Free [Pollux] appears"]
+        },
+        {
+                "name": "Recall Isagoras",
+                "uniqueTo": "Argonautian States",
+                "maintenance": 0,
+                "cost": 1,
+                "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Only available <starting from the [Information era]>", "Can only be built [in capital]","Never destroyed when the city is captured",
+                                        "Free [Isagoras] appears"]
+        },
+        NO NEED ANYMORE */
+
+        //Pyre Clan
+        {
+                "name": "Demonic Portal",
+                "replaces": "Heroic Epic",
+                "uniqueTo": "Pyre Clan",
+                "cost": 125,
+                "culture": 1,
+                "isNationalWonder": true,
+                "uniques": ["Only available <in cities with a [Barracks]>", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+                        "Cost increases by [30] per owned city", "[+50]% Production when constructing [{Military} {Land}] units [in this city]", "[+1] Movement <for [All] units> <during a Golden Age>", "[+1] Sight <for [All] units> <during a Golden Age>"],
+                "requiredTech": "Iron Working",
+                "civilopediaText": [
+                        {"text": "A rift opened from the other dimension. The Demons managed to breach through it and invade this dimension with untold amount of them."},
+        ]
+        },
+
+        //High Elf Concordat
+        {
+                "name": "Arcane Spire",
+                "replaces": "Temple",
+                "uniqueTo": "High Elf Concordat",
+                "faith": 2,
+                "requiredBuilding": "Shrine",
+                "maintenance": 2,
+                "hurryCostModifier": 25,
+                "requiredTech": "Philosophy",
+                "uniques": ["Hidden when religion is disabled", "Destroyed when the city is captured", "[+2 Science] per [7] population [in this city]"],
+                "civilopediaText": [
+                        {"text": "Tower of learning, the High Elves learn and develop arcane arts in here."},
+        ]
+        },
+                /* NO NEED ANYMORE
+                //Free Pantheon
+                {
+                        "name": "FreePantheon Tradition",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Tradition Complete]>", 
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Liberty",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Liberty Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Honor",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Honor Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Piety",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Piety Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Patronage",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Patronage Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Commerce",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Commerce Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Rationalism",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Rationalism Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Freedom",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Freedom Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Autocracy",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Autocracy Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                {
+                        "name": "FreePantheon Order",
+                        "uniqueTo": "High Elf Concordat",
+                        "maintenance": 0,
+                        "cost": 1,
+                        "uniques": ["Unsellable", "Will not be displayed in Civilopedia", "Can only be built [in capital]", "Never destroyed when the city is captured",
+                                                "Only available <after adopting [Order Complete]>",
+                                                "Gain a free [Pantheon] belief"]
+                },
+                NO NEED ANYMORE */
+
+        //Necrontia
+        {
+                "name": "Necrontia Courthouse",
+                "replaces": "Courthouse",
+                "uniqueTo": "Necrontia",
+                "maintenance": 4,
+                "hurryCostModifier": 50,
+                "uniques": ["Remove extra unhappiness from annexed cities", "Unsellable",
+                                        "Can only be built [in annexed cities]", "Will not be displayed in Civilopedia",
+                                        "Free [Warrior] appears <before discovering [Iron Working]>", 
+                                        "Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]>",
+                                        "Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]>",
+                                        "Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]>",
+                                        "Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]>",
+                                        "Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]>",
+                                        "Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]>",
+                                        "Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]>",
+                                        ],
+                "requiredTech": "Mathematics"
+        },
+        {
+                "name": "Throne of the Dead",
+                "replaces": "National Epic",
+                "uniqueTo": "Necrontia",
+                "cost": 125,
+                "culture": 4,
+                "faith": 4,
+                "isNationalWonder": true,
+                "uniques": ["Requires a [Monument] in all cities", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city",
+                                        "[Civilian] units gain the [Sacrifice] promotion"],
+                "requiredTech": "Drama and Poetry",
+                "civilopediaText": [
+                        {"text": "Throne made from skulls and skeletons. A throne to be worshipped."},
+        ]
+        },
+
+        //Sacred Sun Theocracy
+        {
+                "name": "Holy Tribunal",
+                "replaces": "Courthouse",
+                "uniqueTo": "Sacred Su
