@@ -412,8 +412,8 @@
                 "adjective": ["Demonios"],
                 "preferredVictoryType": "Domination",
 
-                "startIntroPart1": ".",
-                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "Rey Goroth, líder de los Demonios. Tu imponente figura y poder oscuro te han elevado al trono de un reino infernal lleno de seres grotescos y demoníacos. Temidos y reverenciados, los demonios bajo tu mando son una fuerza aterradora en el mundo. Tu reinado ha traído caos y destrucción, expandiendo las fronteras de tu dominio con fuego y terror.",
+                "startIntroPart2": "Oh, Rey Goroth, tu pueblo te sigue con devoción y temor. ¿Consolidarás tu dominio sobre el inframundo y desatarás el horror sobre aquellos que osen desafiarte? ¿Destruirás las barreras que limitan tu reino y sembrarás el pánico en los corazones de los mortales? ¿Podrás forjar un imperio que perdure a través de las eras, dejando un legado de oscuridad y poder que se susurre en los ecos del tiempo?",
 
                 "declaringWar": ".",
                 "attacked": ".",
@@ -451,9 +451,9 @@
 
         //Aellerin of High Elf Concordat
         {
-                "name": "High Elf Concordat",
+                "name": "Altos elfos",
                 "leaderName": "Aellerin",
-                "adjective": ["High Elven"],
+                "adjective": ["Alto elfo"],
 
                 "startIntroPart1": ".",
                 "startIntroPart2": " Can you build a civilization that will stand the test of time?",
