@@ -1,292 +1,1881 @@
-[
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+[        
+        //Higba of Dwarven Kingdom
+        {
+                "name": "Enanos de las montañas",
+                "leaderName": "Higba",
+                "adjective": ["Enano montañoso"],
+                "startBias": ["Hill"],
+                "preferredVictoryType": "Scientific",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+                "startIntroPart1": ¡El majestuoso Rey Higba, líder del Reino Enano! Tu nación ha entrado en una nueva era gracias a tu reinado. La tierra montañosa del Reino Enano sin duda traerá avances y descubrimientos.",
+                "startIntroPart2": "Rey Higba, tu mente brillante ha resonado por todas las tierras. ¿Permanecerás imbatible como una montaña? ¿Alcanzarás la cima y protegerás la tierra de los enanos? ¿Podrás construir una civilización que resista la prueba del tiempo?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	},
-	{
-		"name": "Orcos",
-		"leaderName": "Azog",
-		"adjective": ["Orco"],
-		"startBias": ["Forest"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "¡Prepárense para la guerra!",
-		"startIntroPart2": "¡Los orcos no mostramos piedad!",
-		
-		"declaringWar": "¡Inclínate o serás destruido!",
-		"attacked": "¡Prepárate para ser aniquilado!",
-		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "Mantente fiera de nuestro camino",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+                "declaringWar": "You have transgressed our agenda, we won't let you have it your way!",
+                "attacked": "Recourse to war is regrettable, but necessary, when dealing with vipers like you.",
+                "defeated": "I'm sorry, I've failed my people.",
+                "introduction": "Greetings stranger, I am King Higba of Dwarven Kingdom. Leader of the Dwarven, conqueror of the mountains.",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
-		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+                "neutralHello": "Greetings, your Highness.",
+                "hateHello": "What now?",
+                "tradeRequest": "I think it would be beneficial for both of us to conduct in a trade.",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Mordor","Gungabad","Orgrimmar","Felhammer","Khazad-dûm","Grishna'ks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien"]
-	},
-	{
-  "name": "Humanos",
-		"leaderName": "Carlomagno",
-		"adjective": ["Humano"],
-		"startBias": ["Grasslands"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "¡Prepárense para la guerra!",
-		"startIntroPart2": "¡Los orcos no mostramos piedad!",
-		
-		"declaringWar": "¡Inclínate o serás destruido!",
-		"attacked": "¡Prepárate para ser aniquilado!",
-		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "Mantente fiera de nuestro camino",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+                "outerColor": [ 27, 53, 63]
+                "innerColor": [213,249,255],
+                "uniqueName": "Higba's Ingenuity",
+                "uniqueText": "+1 [Production] every 2 eras for cities settled on Hill\n+1 [Science] from every Strategic Resource\n+1 [Production] from every Strategic Resource improved with Mine",
+                "uniques": ["[+1 Science] from every [Strategic resource]",
+                                        "[+1 Production] from every [Mine] <in [Iron] tiles>",
+                                        "[+1 Production] from every [Mine] <in [Coal] tiles>",
+                                        "[+1 Production] from every [Mine] <in [Aluminum] tiles>",
+                                        "[+1 Production] from every [Mine] <in [Uranium] tiles>",
+                                        "[+1 Production] in cities on [Hill] tiles <starting from the [Classical era]>",
+                                        "[+1 Production] in cities on [Hill] tiles <starting from the [Renaissance era]>",
+                                        "[+1 Production] in cities on [Hill] tiles <starting from the [Modern era]>",
+                                        "[+1 Production] in cities on [Hill] tiles <starting from the [Information era]>"],
+                "cities": ["Dhin Kahldur","Thal Wuhrum","Nigh Burimm","Kharn Molduhr","Vil Lodihr","Dhirn Dural","Vol Torum","Dar Burimm","Kug Boldir","Kugh Lodahr","Kar Doral","Mol Kolduhr",
+                        "Murn Thurim","Tharn Buldohr","Hug Burim","Tham Olihm","Khogh Toduhr"],
+                "civilopediaText": [
+                        {"text":"Dwarven Kingdom is a dwarf civilization. Led by its King, Higba, Dwarven Kingdom prospers. Dwarves are very skilled at mining and scientific progression."},
+                        {"text":"Dwarven Kingdom has great [Production] and [Science] output."},
+                        {"text":"You want to settles your cities on Hill, especially next to Mountain."},
+        ]
+        },
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
-		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+        //Fasthur of Drow Village
+        {
+                "name": "Pueblo Drow",
+                "leaderName": "Fasthur",
+                "adjective": ["Drow"],
+                "startBias": ["Desert"],
+                "preferredVictoryType": "Domination",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
-			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien"]
-	},
-	{
-  "name": "Griegos",
-		"leaderName": "",
-		"adjective": ["Griego"],
-		"startBias": ["Grasslands"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "¡Prepárense para la guerra!",
-		"startIntroPart2": "¡Los orcos no mostramos piedad!",
-		
-		"declaringWar": "¡Inclínate o serás destruido!",
-		"attacked": "¡Prepárate para ser aniquilado!",
-		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "Mantente fiera de nuestro camino",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+                "startIntroPart1": "Gran Jefe Fasthur, líder de los Drow. Desterrado y exiliado por el usurpador de tu trono, tu ira desborda, buscando venganza contra aquellos que te agraviaron. Tu nombre resuena por la tierra de tu enemigo, suplicando misericordia ante tu furia.",
+                "startIntroPart2": "Oh Fasthur, tu pueblo te insta a guiarlos hacia la victoria. ¿Reclamarás tu tierra de nuevo? ¿Recuperarás lo que por derecho te pertenece? ¿Podrás construir una civilización que resista la prueba del tiempo?",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
-		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+                "declaringWar": "Our time has come! Prepare to face our wraths!",
+                "attacked": "So you dare to defy me? You will regret this dearly.",
+                "defeated": "No, I failed you my people.",
+                "introduction": "I am High Chief Fasthur, the vengeful, leader of the Drow. You will bow before me!",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
-			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien"]
-	},
-	{
-  "name": "Humanos del desierto",
-		"leaderName": "Carlomagno",
-		"adjective": ["Humano"],
-		"startBias": ["Grasslands"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "¡Prepárense para la guerra!",
-		"startIntroPart2": "¡Los orcos no mostramos piedad!",
-		
-		"declaringWar": "¡Inclínate o serás destruido!",
-		"attacked": "¡Prepárate para ser aniquilado!",
-		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "Mantente fiera de nuestro camino",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+                "neutralHello": "Be quick, I'm busy.",
+                "hateHello": "What?",
+                "tradeRequest": "Accept this now!",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
-		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+                "outerColor": [ 35, 35, 35],
+                "innerColor": [246,205,137],
+                "uniqueName": "Revenge of the Fallen",
+                "uniqueText": "+1 [Food], +1 [Production] for Desert tiles adjacent to City Center\nMelee Land units will avenge their fallen brother, they gain +50% Strength when attacking an enemy unit that has defeated a brethren",
+        //        Pending \nGain [Science] boost upon founding a city within 2 tile of enemy's territory (scales with era)
+                "uniques": ["[+1 Food, +1 Production] from [Desert] tiles [in all cities] <with [1] to [6] neighboring [City center] tiles>",
+                                        "[{Melee} {Land}] units gain the [Vengeful] promotion",
+                                /*        Tech Stuff, BROKEN, alternatives to Vengeful
+                                        "Gain [18] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Ancient era]>",
+                                        "Gain [30] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Classical era]>",
+                                        "Gain [125] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Medieval era]>",
+                                        "Gain [250] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Renaissance era]>",
+                                        "Gain [500] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Industrial era]>",
+                                        "Gain [900] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Modern era]>",
+                                        "Gain [1500] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Atomic era]>",
+                                        "Gain [2100] [Science] <upon founding a city> <within [2] tiles of a [Enemy Land]> <during the [Information era]>"
+                                */
+                                        ], 
+                "cities": ["Helvion'lyr","Kalankoth","Despt'tar","Yolis","Omarryn","Noquani","Argach","Lashire","Chenlaena","Ordton","Xaryna","Kurx",
+                        "Alerough","Yauntyrr","Shurdriira","Zauiryn","Goyln"],
+                "civilopediaText": [
+                        {"text":"Drow Village is a Dark Elf civilization. They live inside caves on hilly desert. They are exiled Elf from their forest and seek refuge inside caves from the scorch of the sun. They seek revenge upon those who left them to their demise."},
+                        {"text":"Drow Village can turn Desert tiles into essentially Plains tiles around its City Center. They are good at military."},
+                        {"text":"Settle near Desert Hill and/or Oasis to maximize Drow Village's unique Ability."},
+        ]
+        },
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
-			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien"]
-	},
-	{
- "name": "Vikingos",
-		"leaderName": "Carlomagno",
-		"adjective": ["Humano"],
-		"startBias": ["Grasslands"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "¡Prepárense para la guerra!",
-		"startIntroPart2": "¡Los orcos no mostramos piedad!",
-		
-		"declaringWar": "¡Inclínate o serás destruido!",
-		"attacked": "¡Prepárate para ser aniquilado!",
-		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "Mantente fiera de nuestro camino",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+        //Rog of Orc Horde
+        {
+                "name": "Orcos",
+                "leaderName": "Rog",
+                "adjective": ["Orco"],
+                "preferredVictoryType": "Domination",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
-		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+                "startIntroPart1": "Rog el Destructor, tu inmensa fuerza, tamaño y poder te han elevado al trono. Respetado y temido entre los orcos, libras una guerra tras otra a tu antojo. La violencia y la destrucción siguen tu mando. A nadie concediste misericordia. Miles han caído bajo tu mano.",
+                "startIntroPart2": "Oh, poderoso Destructor, tu pueblo te sigue en cada victoria. ¿Arrasarás con tus oponentes? ¿Destruirás a aquellos que se atrevan a oponerse? ¿Podrás arruinar civilizaciones hasta el fin de los tiempos?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
-			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien"]
-	},
-	{
- "name": "Asiáticos",
-		"leaderName": "Carlomagno",
-		"adjective": ["Humano"],
-		"startBias": ["Grasslands"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "¡Prepárense para la guerra!",
-		"startIntroPart2": "¡Los orcos no mostramos piedad!",
-		
-		"declaringWar": "¡Inclínate o serás destruido!",
-		"attacked": "¡Prepárate para ser aniquilado!",
-		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "Mantente fiera de nuestro camino",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+                "declaringWar": "Itz time! Itz time to WAAAGH diz pathetic weaklingz!",
+                "attacked": "HAHAHAHA! Diz iz juzt hilarious! Get em, boiz!",
+                "defeated": "Gahh... I hate when dat happenz...",
+                "introduction": "Ai'm Rog, chief of my great army. You seem like you'd maik a gud treat for diz beasts here, heheh...",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
-		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+                "neutralHello": "Hrgh? Wat do you want?",
+                "hateHello": "Hghh...",
+                "tradeRequest": "Letz banter, ey? I give you good stuff, you give us good stuff, deal?",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
-			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien"]
-	},
-	{
- "name": "Aztecas",
-		"leaderName": "Moctezuma",
-		"adjective": ["Humano"],
-		"startBias": ["Grasslands"],
-		"preferredVictoryType": "Domination",
-		
-		"startIntroPart1": "¡Prepárense para la guerra!",
-		"startIntroPart2": "¡Los orcos no mostramos piedad!",
-		
-		"declaringWar": "¡Inclínate o serás destruido!",
-		"attacked": "¡Prepárate para ser aniquilado!",
-		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "Mantente fiera de nuestro camino",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+                "outerColor": [ 41,83,42],
+                "innerColor": [146,221,9],
+                "uniqueName": "Endless Horde",
+                "uniqueText": "+15% [Production] when constructing Military Land units in all cities with [Barracks]\n+15% Flank attack bonuses",
+                "uniques": ["[+15]% Production when constructing [{Military} {Land}] units [in all cities] <in cities with a [Barracks]>",
+                                        "[+15]% to Flank Attack bonuses"], 
+                "cities": ["Gholug","Xruul","Tagdud","Mazoga","Uloth","Shelur","Lambug","Gashnakh","Borgakh","Rogmesh","Bugdurash","Shagar",
+                        "Nargol","Yotul","Homraz","Gonk","Mor"],
+                "civilopediaText": [
+                        {"text":"Orc Horde is a warmonger Orc civilization. Warlord Rog led them by force. They are very ruthless and crude creature. Opting for improved weaponry and arsenal. Orc are very fast at breeding and thus they need more space by invading other civilization's land."},
+                        {"text":"Orc Horde can spit an untold amount of units thanks to their unique ability. They are good at military."},
+                        {"text":"Prioritize moving melee units into range before attacking for the extra Flank Attack bonuses."},
+        ]
+        },
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
-		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+        //Undwyck of Uldra
+        {
+                "name": "Uldra",
+                "leaderName": "Undwyck",
+                "adjective": ["Uldra"],
+                "startBias": ["Tundra"],
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
-			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien"]
-	},
-	{
+                "startIntroPart1": "El líder de los Uldra, Undwyck, tu pueblo te ha elevado por tus logros al guiarlos. Tu pacífico reinado ha llevado a los Uldra a una era de tranquilidad. Eres famoso por unir a las diversas tribus de los Uldra bajo una sola bandera.",
+                "startIntroPart2": "Undwyck, tu pueblo te necesita una vez más. ¿Los unirás de nuevo? ¿Sobrevivirás en esta tierra fría y dura del invierno? ¿Podrás construir una civilización que resista la prueba del tiempo?",
+
+                "declaringWar": "There is no choice. I shall take peace by force!",
+                "attacked": "I truly hope there is another way for the best of us.",
+                "defeated": "Please, rule them with mercy.",
+                "introduction": "I am Undwyck, leader of the Uldra. Please good sir, come, have a sit and let's talk for a moment.",
+
+                "neutralHello": "Good day sir.",
+                "hateHello": "No good will come of this.",
+                "tradeRequest": "Let us conduct in a trade.",
+
+                "outerColor": [215,225,225],
+                "innerColor": [  0,  0,  0],
+                "uniqueName": "Chilling Touch",
+                "uniqueText": "+1 [Food], +1 [Culture], and +1 [Science] from every Snow tiles\n+1 Population from cities settled within 1 tile Tundra\n+1 Population from cities settled within 2 tiles Snow",
+                "uniques": ["[+1 Food, +1 Culture, +1 Science] from every [Snow]",
+                                        "[+1] population [in all cities] <upon founding a city> <within [1] tiles of a [Tundra]>",
+                                        "[+1] population [in all cities] <upon founding a city> <within [2] tiles of a [Snow]>"], 
+                "cities": ["Kushi","Khonayn","Meesha","Akhita","Ramsina","Nardina","Sharokina","Adorina","Ashourina","Ilu-shuma","Shukal-Ila","Nabû-Shar",
+                        "Shu-Kubum","Ikunum","Banipal","Ninos","Adad-Rabi"],
+                "civilopediaText": [
+                        {"text":"Uldra is a creature of ice who lives in the arctics. They form a close relationship with their nature and can hardly live outside of it. But they tamed the unhospitable nature of arctic and it made them stronger."},
+                        {"text":"Uldra is a defensive civilization. They have good [Production] output on Tundra tiles. And especially on Snow Hill tiles."},
+                        {"text":"Frost Giant is a good defensive unit as Uldra's start bias is Tundra. Turtle up and pump whatever victory you want to achieve with the extra population and [Production] from Tundra tiles."},
+        ]
+        },
+
+        //Remia of Merfolk Council
+        {
+                "name": "Merfolk Council",
+                "leaderName": "Remia",
+                "adjective": ["Merfolk"],
+                "startBias": ["Coast"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "The Council has no choice, it is inevitable.",
+                "attacked": "We hope we can reconcile.",
+                "defeated": "Please be merciful to our people.",
+                "introduction": "Tala, I am Remia, leader of the Council, I welcome you to our magnificent cities.",
+
+                "neutralHello": "Hello.",
+                "hateHello": "What?",
+                "tradeRequest": "We request you to agree.",
+
+                "outerColor": [78,244,234],
+                "innerColor": [85, 74, 32],
+                "uniqueName": "Song of the Seas",
+                "uniqueText": "+2 [Culture] for cities settled on Coastal tiles after discovering [Drama and Poetry]\nAll units may enter Ocean tiles after discovering [Compass]\nLand units gain the [Water Creature] promotion",
+                "uniques": ["[+2 Culture] in cities on [Coastal] tiles <after discovering [Drama and Poetry]>","[Land] units gain the [Water Creature] promotion",
+                                        "[Work Boats] units gain the [Floating City Builder] promotion",
+                                        "Enables embarkation for land units", "Enables [All] units to enter ocean tiles <after discovering [Compass]>"], 
+                "cities": ["Rimulus","Cyreus","Aenon","Seirus","Cari","Muriel","Laguna","Osharus","Nadah","Adriene","Raina","Ara",
+                        "Cherith","Tishtar","Nerrocen","Orta","Tertis"],
+                "civilopediaText": [
+                        {"text":"Merfolk Council is a council made of several Merfolk villages. Merfolk is a creature of the sea, of half fish and half human. They can't live without access to water, but they could easily dominate water terrain."},
+                        {"text":"Merfolk Council has strong [Culture] output if settled on Coastal tile."},
+                        {"text":"Merfolk Council's Work Boats can construct Merfolk Council Unique Improvement which further boost its [Culture] output with added [Production] bonus."},
+        ]
+        },
+
+        //Rozagh of Beastmen Empire
+        {
+                "name": "Beastmen Empire",
+                "leaderName": "Rozagh",
+                "adjective": ["Beastmen"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Blow the horns, bang the drums, Rozagh is coming to town!",
+                "attacked": "Agh, you mess with me, you'll pay, you'll pay...",
+                "defeated": "No, Rozagh knows no defeat!",
+                "introduction": "Well met stranger, I am Rozagh the Undefeated, are you a warrior? Come and spar with me.",
+
+                "neutralHello": "Good day to you.",
+                "hateHello": "What is it?",
+                "tradeRequest": "A trade request one might say.",
+
+                "outerColor": [ 55, 25,  8],
+                "innerColor": [156,197,237],
+                "uniqueName": "Roar of Victory",
+                "uniques": ["Upon capturing a city, receive [5] times its [Production] production as [Culture] immediately", "[+2 Happiness] [in annexed cities]"], 
+                "cities": ["Karkroz","Khunaur","Dalgraak","Nalgax","Tocvax","Bokzaaz","Morog","Zarkrug","Velox","Blcooz","Ghaltraaz","Tecthoor",
+                        "Sa'ag","Razgrog","Mirzugh","Cogryts","Wogh"],
+                "civilopediaText": [
+                        {"text":"Beastmen Empire is a diverse civilization consisted of many Demihuman and Beastmen races. Their leader Rozagh is a strong and warlike leader that can unite all these different races into one."},
+                        {"text":"Beastmen Empire is a strong domination civ especially in early game with Wyvern Rider."},
+                        {"text":"Beastmen Empire's Wardrummer (Great General) has the Intimidation promotion, but only for adjacent units. Positioning the Wardrummer correctly is key."},
+        ]
+        },
+
+        //Sylvanna of Elven Kingdom
+        {
+                "name": "Elven Kingdom",
+                "leaderName": "Sylvanna",
+                "adjective": ["Elven"],
+                "startBias": ["Forest"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Ohtatimeár! A war is brewing, and it's your time to fall.",
+                "attacked": "Damn you, I will not fall.",
+                "defeated": "The forest doesn't favor me it seems, my time has come.",
+                "introduction": "A na márië, I am Sylvanna, the Queen of Elven, what brings you to our sacred lands?",
+
+                "neutralHello": "Namárië.",
+                "hateHello": "Begone.",
+                "tradeRequest": "We have a proposition for you.",
+
+                "outerColor": [255,255,78],
+                "innerColor": [ 70,  0, 4],
+                "uniqueName": "One with Nature",
+                "uniqueText": "Starts with [Archery]\n+1 [Culture] from every Forest tiles adjacent to Forest tile\n+1 [Faith] from every Jungle tiles adjacent to Jungle tile",
+                "uniques": ["[+1 Culture] from every [Forest] <with [1] to [6] neighboring [Forest] tiles>", "[+1 Faith] from every [Jungle] <with [1] to [6] neighboring [Jungle] tiles>"
+        //                                "[+1 Culture, +1 Faith] [in all cities connected to capital] <in cities with a [Ancestor Tree]>",
+                                        "Starts with [Archery]"], 
+                "cities": ["Avallonè","Brithombar","Edhellond","Harlond","Kortirion","Mirkwood","Nargothrond","Tirion","G'eldree","Rilynnmitore","Iston","Eldamar",
+                        "Brithombar","Elvenking","Formenos","Rivendell","Vinyamar"],
+                "civilopediaText": [
+                        {"text":"Elven Kingdom is a kingdom of elves who lives in Forest. They are adept at archery and has a deep cultural and faith bonds with the nature."},
+                        {"text":"Elven Kingdom is a good Cultural civilization when starting with plenty of Forest and Jungle. They have good early game aggresion with Elven Ranger."},
+                        {"text":"Elven Kingdom unique National Wonder provides [Culture] and [Faith] from each Trade Route, so build wide to maximize this effect."},
+        ]
+        },
+
+        //Orz'athoth of Children of Deep Dweller
+        {
+                "name": "Children of Deep Dweller",
+                "leaderName": "Orz'athoth",
+                "adjective": ["Cultist"],
+                "startBias": ["Coast"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Come child, come to our cause, the Old One seeks you.",
+                "attacked": "Oh dear child, you know nothing, you see nothing, you are nothing.",
+                "defeated": "Mwuahahaha, you think this is the end? You still have to answers to the Old One!",
+                "introduction": "Oh, another lost child, come, let us guide you to the right path.",
+
+                "neutralHello": "May you come to us.",
+                "hateHello": "What?",
+                "tradeRequest": "It is time for a trade.",
+
+                "outerColor": [0, 43, 11],
+                "innerColor": [0,242,189],
+                "uniqueName": "Darkest Salvation",
+                "uniqueText": "Earn 50% of killed Military unit's Strength as [Faith] and [Science]\nGain a free [Old God Monument] in annexed cities",
+                "uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Faith]","Earn [50]% of killed [Military] unit's [Strength] as [Science]", "Gain a free [Old God Monument] [in annexed cities]"], 
+                "cities": ["Zhall'ru","Eldhurst","Creeton","Khadram","Agranthin","Itlognig","Zaa-nag","Lihlelica","Nathosh","Sokrlithuact","Closarugn","Kitl-zothat",
+                        "Iggtharacama","Mighanot","Yubotho","Athotuaq","C'darhothon"],
+                "civilopediaText": [
+                        {"text":"Children of Deep Dweller is a lovecraftian cultist civilization. They worships the Old God that dwells deep in the ocean."},
+                        {"text":"Children of Deep Dweller is a good early-game Military civilization."},
+                        {"text":"Its unique unit Deep One is a stronger replacement to Warrior and has the abilities of +10% Strength when near water source."},
+        ]
+        },
+
+        //Baradul of Dragonborn Union
+        {
+                "name": "Dragonborn Union",
+                "leaderName": "Baradul",
+                "adjective": ["Dragonborn"],
+                "startBias": ["Mountain"],
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "You have threathened the balance of this world, we shall remove you!",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [242,101,0],
+                "innerColor": [89, 255,0],
+                "uniqueName": "Draconic Wisdom",
+                "uniqueText": "Melee Sword and Gunpowder units gain Flying, they may pass through impassable terrains and see over obstacles\nGain 15 Influence when gifting a Flying units to City-States",
+                "uniques": ["Gain [15] Influence with a [Flying] gift to a City-State", 
+                                        "[Sword] units gain the [Wings] promotion", "[Gunpowder] units gain the [Wings] promotion"], 
+                "cities": ["Aylzrainton, the Braveheart","Ryrrir, Champion of Men","Oddreg, Protector of the Forest","Amor, Lord of the Yellow","Zuvnon, the Dark One",
+                                   "Chiandu, Firebreath","Freita, the Protective","Oigiod, the Dragonlord","Ylzress, Lord of the Black",
+                                   "Myrsys, the Stubborn","Jolbaim, the Chosen",
+                                   "Jaigerynth, the Skinny One","Dondrentarth, the Mysterious","Nudroilth, Eternal Fire",
+                                   "Eovnayntein, the Quiet","Srialia, the Tyrant"],
+                "civilopediaText": [
+                        {"text":"Dragonborn Union is a civilization of half human-half dragon races. They are the direct descendant of Dragons who once ruled over the sky and the earth. Now long gone, only their descendant can brought back their old glory. The Dragonborn shares great strength and wisdom from their ancestors."},
+                        {"text":"Dragonborn Union is a good all-around civilization. They are particularly good at Diplomacy with their bonus on gifting units to City-states."},
+                        {"text":"Dragonborn Union can be a good domination civilization as well in mid game with its strong unique units which can bypass impassable terrain."},
+        ]
+        },
+
+        //Lavrence of Vigilo Order
+        {
+                "name": "Vigilo Order",
+                "leaderName": "Lavrence",
+                "adjective": ["Order"],
+                "preferredVictoryType": "Scientific",
+
+                "startIntroPart1": "Glory upon the Order! Lavrence, your people always strive for knowledge, even the forbidden ones. The Order trains and nurtures the young into a fine Alchemist. Giving them knowledge and mastery of alchemy. Unveiling the secrets of this world little by little. It is now time for your people to surface and be known to the world now it needs a power balance.",
+                "startIntroPart2": "O, Lavrence, the Order relies upon your shoulder. Will you lead the Order into glory and praise? Can you create an era of enlightenment? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Your uneducated people are insufferable. The Order will lead them better, the Order will guide them better. Wasted potentials are not to be allowed!",
+                "attacked": "I guess some people truly only have 3 braincells. Ah, who am I kidding, it's just you.",
+                "defeated": "No, you know nothing of what you've done! This won't be the last of us! Veritas vincit.",
+                "introduction": "Well met our astute guests. I assume you seek the Truth as well. Let us exchange knowledge of this world.",
+
+                "neutralHello": "Ah, my most revered guest. What shall we speak about today?",
+                "hateHello": "Our secrets are not for the simple-minded. What do you seek?",
+                "tradeRequest": "The Order demands for your fiscal cooperation yet again!",
+
+                "outerColor": [237,197,82],
+                "innerColor": [186, 60, 3],
+                "uniqueName": "Lavrence's Opus",
+                "uniques": ["Free [Great Engineer] appears <upon discovering [Chemistry]>", "[+50 Gold, +50 Science] whenever a Great Person is expended"], 
+                "cities": ["Aurelion","Malach","Pyr","Rhodochros","Arcanum","Sapphirus","Acathes","Lunarius","Estest","Solus","Mercury","Mellago",
+                        "Regulus","Natra Cinerius","Glacies","Alrescha Aurum","Dodekatos"],
+                "civilopediaText": [
+                        {"text":"Vigilo order is a human secret society which excels at alchemy. They rose from their hide and shown themselves when they see a threat to the world's balance. They seek balance in power and scientific progression as their agenda."},
+                        {"text":"Vigilo Order is a strong scientific civilization in mid-game to late game. Potionist helps you defend its territory."},
+                        {"text":"Its Alchemical Society has unique specialist (Alchemist) which has +33% Great Scientist Points that of a normal Scientist. Assigning those Alchemists is crucial."},
+        ]
+        },
+
+        //Menedaius of Argonautian States
+        {
+                "name": "Argonautian States",
+                "leaderName": "Menedaius",
+                "adjective": ["Argonauts"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "Honorable warrior Menedaius, the leader of the Argonauts. Your reign unites all surrounding smaller states into one unified great nation. Under your rule, they prosper. Your Agoge mandate recruits young and strong descendant of the gods, a demigod, into a great warrior of your caliber, leading them into a path of glory in battle.",
+                "startIntroPart2": "O, Menedaius, your people call upon your name once more. Will you lead them to glory? Will you take Argonautian States into a leading force upon this world? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "In battle we are the most glorious. Let's dance on the battlefield, shall we?.",
+                "attacked": "Oho, a battle you say? Come then, we will strike you down!",
+                "defeated": "I respect your abilities in warfare. It's my loss.",
+                "introduction": "Well met stranger, I am Menedaius, the head of the Argonautian States. Do I see a fellow warrior of honor?",
+
+                "neutralHello": "My honorable guest, greetings.",
+                "hateHello": "What?",
+                "tradeRequest": "Our generous nation makes you this offer.",
+
+                "outerColor": [0,136,230],
+                "innerColor": [255,255,255],
+                "uniqueName": "Heroic Tales",
+                "uniqueText": "Can't receive Great General Points (-100% Great General Point generation), but receive free different unique Heroic General every era in capital",
+                "uniques": ["[Great General] is earned [-100]% faster", "[Land] units gain the [Agathinus' Recovery] promotion",
+                                        "Free [Achilles] appears <upon entering the [Classical era]>",
+                                        "Free [Orion] appears <upon entering the [Medieval era]>",
+                                        "Free [Agathinus] appears <upon entering the [Renaissance era]>",
+                                        "Free [Daedalus] appears <upon entering the [Industrial era]>",
+                                        "Free [Theopompus] appears <upon entering the [Modern era]>",
+                                        "Free [Castor] appears <upon entering the [Atomic era]>",
+                                        "Free [Pollux] appears <upon entering the [Atomic era]>",
+                                        "Free [Isagoras] appears <upon entering the [Information era]>"], 
+                "cities": ["Aegidrus","Epicos","Mylidos","Chalcares","Paphos","Lampsopolis","Thyresia","Pydnauros","Cyronia","Mytope","Idioch","Resia",
+                        "Patraros","Olynthio","Andrai","Tathon","Nymphidon"],
+                "civilopediaText": [
+                        {"text":"Argonautian States is a demigod civilization based on Greek tales and mythology. Their people has stronger quality than normal humans. Smarter, stronger, and wiser than any of normal humans, they are built different. They formed their own states which then united under one banner, The Argonautian."},
+                        {"text":"Argonautian States is a really strong domination civilization. Both of its Unique units has good promotion, so build a lot of them so the promotion sticks when you upgrade them."},
+                        {"text":"Its Heroic General each has unique ability beside the +15% Strength Aura and constructing Citadel. Make sure to make use of that, or you can upgrade them if you want to keep them as Military units."},
+        ]
+        },
+
+        //Goroth of Pyre Clan
+        {
+                "name": "Pyre Clan",
+                "leaderName": "Goroth",
+                "adjective": ["Demons"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [220,20,60],
+                "innerColor": [0,0,0],
+                "uniqueName": "Crimson Sky",
+                "uniqueText": "+1 [Happiness] from every [Barracks], [Armory], and [Military Academy]\n2 free [Pitlord]s appear upon completing your first Policy tree",
+                "uniques": ["[+1 Happiness] from every [Barracks]", "[+1 Happiness] from every [Armory]", "[+1 Happiness] from every [Military Academy]", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Tradition Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Liberty Complete]> <before adopting [Tradition Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Honor Complete]> <before adopting [Liberty Complete]><before adopting [Tradition Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Piety Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Tradition Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Patronage Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Tradition Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Commerce Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Tradition Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Rationalism Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Tradition Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Freedom Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Tradition Complete]><before adopting [Autocracy Complete]><before adopting [Order Complete]>", 
+                                        "[2] free [Pitlord] units appear <upon adopting [Autocracy Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Tradition Complete]><before adopting [Order Complete]>",
+                                        "[2] free [Pitlord] units appear <upon adopting [Order Complete]> <before adopting [Liberty Complete]><before adopting [Honor Complete]><before adopting [Piety Complete]><before adopting [Patronage Complete]><before adopting [Commerce Complete]><before adopting [Rationalism Complete]><before adopting [Freedom Complete]><before adopting [Autocracy Complete]><before adopting [Tradition Complete]>",
+                                        ], 
+                "cities": ["Meg'thath","Agruk","Zonnol","Volvellath","Azrarad","Xolmonach","Zoz'guleth","Eg'thuth","Mir'gumoth","Barthrolloz","Ath'tannuth","Thul'gog",
+                        "Kil'ganath","Dalvoloch","Gannoros","Xorthrizar","Trezgemith"],
+                "civilopediaText": [
+                        {"text":"Pyre Clan is a demonic civilization. They came hailing from another dimension and opened a portal in which more and more demons came from. They came to invade and conquer all of this world."},
+                        {"text":"Pyre Clan is a strong domination civilization with good production bonus on city with its unique National Wonder."},
+                        {"text":"Its unit are particularly strong at Golden Age with +1 to Movement and Sight after its unique National Wonder is created."},
+        ]
+        },
+
+        //Aellerin of High Elf Concordat
+        {
+                "name": "High Elf Concordat",
+                "leaderName": "Aellerin",
+                "adjective": ["High Elven"],
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "By the decree of the highest order, we declare war upon you!",
+                "attacked": "Come then, testify our might!.",
+                "defeated": "Phacadam! This will not be the last of us!.",
+                "introduction": "Suilië, stranger. I am Aellerin of the Concordat. A master of the Arcane. Would you like to learn a trick or two?",
+
+                "neutralHello": "Suilië.",
+                "hateHello": "Begone.",
+                "tradeRequest": "I have a request for you.",
+
+                "outerColor": [140,190,214],
+                "innerColor": [90, 60, 80],
+                "uniqueName": "Artisan of the Arcane",
+                "uniqueText": "Gain a free Pantheon belief after completing a Policy Tree\n+2 [Culture], +2 [Production], +2 [Faith] in cities with at least 7 population",
+                "uniques": ["[+2 Culture, +2 Production, +2 Faith] <in cities with at least [7] [Population]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Tradition Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Liberty Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Honor Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Piety Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Patronage Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Commerce Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Rationalism Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Freedom Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Autocracy Complete]>",
+                                        "Gain a free [Pantheon] belief <upon adopting [Order Complete]>"], 
+                "cities": ["Aethlone","Kna Serine","Yal Taesi","Allna Aethel","Lylvatheas","Ulvenoris","E’ma Thalore","Aana Edhil","Eya Taesi","Omyveluna","Uym Allanar","Yllenhona",
+                        "Ulyfalean","Nilanbel","Ollf Belanore","Narenshara","Ryne Asari"],
+                "civilopediaText": [
+                        {"text":"High Elf Concordat, led by Aellerin is a high elven civilization that excels in wizardry. Their understanding of the arcane puts them one step ahead of the other civilization."},
+                        {"text":"High Elf Concordat is a flexible civilization. They have good balance between [Science], [Culture], and [Faith] output."},
+                        {"text":"High Elf Concordat's cities have a powerspike after reaching 7 population. Prioritizing a city's growth is important."},
+        ]
+        },
+
+        //Withermoore of Necrontia
+        {
+                "name": "Necrontia",
+                "leaderName": "Withermoore",
+                "adjective": ["Undeads"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [ 35, 35, 35],
+                "innerColor": [246,205,137],
+                "uniqueName": "Necropoleis",
+                "uniqueText": "+50% [Production] when constructing [Courthouse]\nA free strongest available Melee unit appears after you build [Courthouse]",
+                "uniques": ["[+50]% Production when constructing [Courthouse] buildings [in all cities]"], 
+                "cities": ["Necroheim","Fallenmere","Blightthorn","Shadowmoor","Amberburgh","Illmere","Deathfall","Bleakford","Nighthorne","Reaperton","Dreadmore","Grimmington",
+                        "Woebrook","Weepingborough","Saurridge","Baneville","Netherbrooke"],
+                "civilopediaText": [
+                        {"text":"Necrontia is an Undead civilization led by Demilich Withermoore. They came in horde after horde, raising the deads from captured city and turned them into slaves of war."},
+                        {"text":"Necrontia is a strong domination civilization that can raise the dead of the enemy to join their cause. Sacrifice innocent people for rituals."},
+        ]
+        },
+
+        //Solaris of Sacred Sun Theocracy
+        {
+                "name": "Sacred Sun Theocracy",
+                "leaderName": "Solaris",
+                "adjective": ["Humans"],
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [153,50,204],
+                "innerColor": [240,220,20],
+                "uniqueName": "Inward Perfection",
+                "uniques": ["Provides a [Shrine] in your first [4] cities for free", "[100]% of excess happiness converted to [Culture] <during a Golden Age>"], 
+                "cities": ["Origins"," Shūr Daraq","Kāydūn","Kalāt","Targhī","Borāk"," Mīān Deh","Jeyāvān","Kūh-e Rīg","Kūhsār","Sārī Qayeh","Shūrbek",
+                        "Qalandarī","Kalīlābād","Negār","Eqbālābād","Nesā’ Kūh"],
+                "civilopediaText": [
+                        {"text":"Sacred Sun Theocracy is a human isolationist nation. Sacred Sun Theocracy worship the Sun as their deity, making Holy Lunar Theocracy as their rival nation, which worship the Lunar. They don't like other races than human and believes strongly in human supremacy. Thus their isolationist philoshopy in regarding international relationship with non-human races."},
+                        {"text":"Sacred Sun Theocracy is a civilization that has good early game Faith output. Their unique building is a Courthouse replacement that can be built on their own cities."},
+                        {"text":"Its unique unit further enhance Theocracy's defensive capabilies."},
+        ]
+        },
+
+        //Oakenfir of Nature's Keeper
+        {
+                "name": "Nature's Keeper",
+                "leaderName": "Oakenfir",
+                "adjective": ["Keepers"],
+                "startBias": ["Forest"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": "You dare to step your filthy foot in our forest? Come then!",
+                "defeated": "No... I failed you Great Mother...",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [146,221,9],
+                "innerColor": [  0,  0,9],
+                "uniqueName": "Mother Tree Takes Root",
+                "uniqueText": "Replaces Palace with [Mother Tree]\nReveal all [Forest] and [Jungle] within 8 tile radius upon founding a city\nGain +1 Great Artist Point for cities settled adjacent to [Forest]\nGain +1 Great Scientist Point for cities settled adjacent to [Jungle]",
+                "uniques": ["Reveal up to [All] [Forest] within a [8] tile radius <upon founding a city>", "Reveal up to [All] [Jungle] within a [8] tile radius <upon founding a city>",
+                                        "Gain a free [Artistic Allure] [in all cities] <within [1] tiles of a [Forest]>", "Gain a free [Scientific Allure] [in all cities] <within [1] tiles of a [Jungle]>"], 
+                "cities": ["Trillis","Haldine","Laurelena","Cinnamae","Viticella","Moraea","Fragaria","Elinoire","Aquilegia","Eucolonia","Daisis","Samisia",
+                        "Nerine","Azolla","Apricis","Hemponia","Lilise"],
+                "civilopediaText": [
+                        {"text":"Nature's Keeper is consisted from dweller of the forest. Dryads, Fae, Fairies, and other smaller races into one unity that protects their land from outsider that mean harms."},
+                        {"text":"Nature's Keeper is a good cultural civilization. They are the easiest civ at one-city challenge as well."},
+                        {"text":"Dryad's Hut can only be built adjacent to a Forest and has two Artist slot, don't forget that. Treant Worker is good early game economic boost."},
+        ]
+        },
+
+        //David of Clockwerk Church
+        {
+                "name": "Clockwerk Church",
+                "leaderName": "David",
+                "adjective": ["Devouts"],
+                "preferredVictoryType": "Scientific",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Praise be the Broken God, we shall offer Thee this tribute!",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": "I am High Priest David of Clockwerk Church. Messenger of the Broken God, leader of our devouts. You shall bear witness of His maginificence.",
+
+                "neutralHello": "Greetings, have you heard of the Broken God?",
+                "hateHello": "Clearly not a time for this.",
+                "tradeRequest": "We've come to trade.",
+
+                "outerColor": [139,69,19],
+                "innerColor": [128,0,0],
+                "uniqueName": "Broken God",
+                "uniqueText": "Gain access to [Priest of Cog] instead of Great Prophet that can construct [Clockwerk Temple] instead of [Holy Site]\n-15% [Faith] cost of generating [Priest of Cog]",
+                "uniques": ["[-15]% Faith cost of generating Great Prophet equivalents"], 
+                "cities": ["Anachron","Trillium","Aerodrift","Cooperwall","Automaguard","Steampoint","Neddingfall","Chronoedge","Pitchpoint","Cantmourne","Blackwatch","Glockthain",
+                        "Coverdrift","Steelhollow","Ironburg","Cinderguard","Blagfort"],
+                "civilopediaText": [
+                        {"text":"Clockwerk Church is a human machine cultist civilization. They worship their machine god which is now malfunctioning and they are waiting for Its return to this world. They believes in the spirit of clockwerk and gears machinery."},
+                        {"text":"Clockwerk Church is a good [Faith] generating civilization with great flexibility thanks to its unique improvement."},
+                        {"text":"Church of Gears has a percentage bonus to [Faith] output, making it valuable in high Faith cities. Be careful not to let enemies pillage Clockwerk Temple as they provide more to the pillager."},
+        ]
+        },
+
+        //Lord Kemm of Inquisitorial Illuminate
+        {
+                "name": "Inquisitorial Illuminate",
+                "leaderName": "Lord Kemm",
+                "adjective": ["Templars"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "By the grace of God, we declare war on you!",
+                "attacked": "You shall not trample our temple!",
+                "defeated": "If this is the will of God, we shall accept it.",
+                "introduction": "Well met stranger, have you heard about our lord and saviour?",
+
+                "neutralHello": "Greetings sir",
+                "hateHello": "I don't have time for this.",
+                "tradeRequest": "You shall accept our trade request!",
+
+                "outerColor": [255,255,255],
+                "innerColor": [255,0,0],
+                "uniqueName": "Heresy Watch",
+                "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost", "[+34]% Natural religion spread [in all cities]", "[+34]% Spread Religion Strength"], 
+                "cities": ["Serenity","Sanctum","Endurance","Forsaken","Aepligura","Knowledge","Exalted","Estuary","Erukami","Avretalis","Garden","Nutrahara",
+                        "Pious","Radiant","Reliquary","Cardinal","Solstice"],
+                "civilopediaText": [
+                        {"text":"Inquisitorial Illuminate is a human secret order that secretly control parts of the world's nations. They come to the surface world and reveal themselve at the sight of great heresy and aim to remove it."},
+                        {"text":"Inquisitorial Illuminate is a strong religion civilization. With strong religion, they can be flexible at what victory they want to achieve."},
+                        {"text":"Inquisitorial Illuminate can purchase Military units with both [Gold] and [Faith], that makes them strong at domination as well."},
+        ]
+        },
+
+        //Korvash of Lizardmen Tribes
+        {
+                "name": "Lizardmen Tribes",
+                "leaderName": "Korvash",
+                "adjective": ["Lizardmen"],
+                "startBias": ["Fresh Water"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [130,116,116],
+                "innerColor": [134,255,41],
+                "uniqueName": "Survival Instinct",
+        //        "uniqueText": "+50% Yield from every Improvement in Fresh Water tiles\n+15% Strength for Wounded units when defending"
+                "uniques": ["[+50]% Yield from every [Improvement] <in [Fresh Water] tiles>", "[+20]% Strength <for [Wounded] units> <when defending>"], 
+                "cities": ["Chauitzetl","Bhizzujix","Bhitta","Qraxl","Igriuchit","Chuttox","Quzdo","Ukeqax","Guxizo","Avretalis","Grinjoxxut","Sess",
+                        "Ajiagzex","Zaetlis","Azus","Olzaro","Rhigris"],
+                "civilopediaText": [
+                        {"text":"Lizardmen Tribe is a small nation consisted of several tribes into one nation. They are a group of Lizardmen race that lives on Fresh Water terrain. They are very good at maximizing output from Fresh Water lands."},
+                        {"text":"Lizardmen Tribe has a good defensive capability with its unique Ability and good economic bonus for Fresh Water tiles."},
+                        {"text":"They are relentless at defending and its Unique Unit has good movement bonus on Fresh Water tiles."},
+        ]
+        },
+
+        //Grimhorn of Centaur Tribes
+        {
+                "name": "Centaur Tribes",
+                "leaderName": "Grimhorn",
+                "adjective": ["Centaurs"],
+                "startBias": ["Plains"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [150,41,41],
+                "innerColor": [74,35,35],
+                "uniqueName": "Running with the Pack",
+                "uniqueText": "+1 Movement for Land units\nMounted units resist half of Anti-Mounted units' bonus strength"
+                "uniques": ["[+1] Movement <for [Land] units>", "[Mounted] units gain the [Centaurian] promotion", "[Chariot Archer] units gain the [Centaurian] promotion"], 
+                "cities": ["Konstan","Apios","Oretus","Stergeneus","Barbadia","Naesima","Depheis","Monolea","Kaselaia","Arganassa","Haiderine","Zeran",
+                        "Erasandrou","Perridas","Thomeimon","Coleros","Eusantes"],
+                "civilopediaText": [
+                        {"text":"Centaur Tribes is consisted from several Centaur packs. Led by Grimhorn, strong warlike leader, Centaur Tribes conquer the plains at ease."},
+                        {"text":"Centaur Tribes has good unique Ability with +1 Movement providing a lot of flexibility for both military and economic purposes."},
+                        {"text":"They are particularly good at Plains tile where its Unique Building provide food from it."},
+        ]
+        },
+
+        //Takashi no Seimei of Shinso
+        {
+                "name": "Shinso",
+                "leaderName": "Takashi no Seimei",
+                "adjective": ["Shinso"],
+
+                "startIntroPart1": "Most venerated, Takashi no Seimei of Shinso, you are a pioneer in the ways of Onmyou. Your peerless dedication on leading your people unto Prosperity has ushered a new age of unity. For long has your people divided each on their own idea of wealth. Now you've came, taking all of which this world has to offer.",
+                "startIntroPart2": "Takashi no Seimei, most astute of all Shinso, the keys to unlock Prosperity are within your grasp. Will you acquire it for the good of life? Will you stand tall and proud amongst those who seeks harm to Shinso? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "You won't stand a chance against our mighty casters!",
+                "attacked": "You dare to touch our sacred lands? It will be your grave!",
+                "defeated": "A pity that I won't be able to see Prosperity.",
+                "introduction": "I am Takashi no Seimei, welcome to our land! Please, take off your shoes.",
+
+                "neutralHello": "Greetings sir, what matters bring you here?",
+                "hateHello": "The vermin wants to talk, then you shall talk.",
+                "tradeRequest": "We've come to bargain Sir.",
+
+                "outerColor": [218,165,32],
+                "innerColor": [0,0,205],
+                "uniqueName": "Pillars of Heaven",
+                "uniqueText": "Gain access to 5 unique National Wonders after researching [Mathematics], [Guilds], [Writing], [Philosophy], and [Theology]\nReceive free Great Person and a unique Specialist in capital after building all 5 of them",
+                "cities": ["Hakensei","Nakahama","Kinkasaki","Mizutora","Yamazaka","Kyoshi","Nagakura","Touhama","Fujihidaka","Kumamoto","Shingawa",
+                        "Asatori","Hoshiyama","Iwazawa","Okamikawa","Asahaba","Tateki","Miyakumo"],
+                "civilopediaText": [
+                        {"text":"Shinso is a human civilization resembling that of Onmyouji faith and culture from the Japanese."},
+                        {"text":"Shinso has a strong economical bonus after building their Unique Wonders, but are very weak before that. Especially from foreign attack."},
+                        {"text":"You don't need to rush these Wonders, make sure to defend your land from war and barbarians, Shinso is not an early game civilization."},
+        ]
+        },
+
+        //Ironcrank of Gnome Alliance
+        {
+                "name": "Gnome Alliance",
+                "leaderName": "Ironcrank",
+                "adjective": ["Gnomes"],
+                "startBias": ["Mountain"],
+                "preferredVictoryType": "Scientific",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".!",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [34,60,138],
+                "innerColor": [193,120,120],
+                "uniqueName": "Tink Master",
+                "uniqueText": "+1 Great Scientist point from every scientific buildings\n+2 [Science] from every [Workshop] and [Factory]",
+                "uniques": ["[+2 Science] from every [Workshop]", "[+2 Science] from every [Factory]",
+                                        "Gain a free [Library Great Scientist Point] [in all cities] <in cities with a [Library]>",
+                                        "Gain a free [University Great Scientist Point] [in all cities] <in cities with a [University]>",
+                                        "Gain a free [Public School Great Scientist Point] [in all cities] <in cities with a [Public School]>",
+                                        "Gain a free [Observatory Great Scientist Point] [in all cities] <in cities with a [Observatory]>",
+                                        "Gain a free [Research Lab Great Scientist Point] [in all cities] <in cities with a [Research Lab]>"],
+                "cities": ["Ironforge","Tinkertown","Techno City","Gnomenia","Cogfrenzy","Mekatorque","Steelgrill","Mechastation","Raceway","Gadgetstan","New Tinkertown",
+                        "Clockwerk City","Steeltown","Thermacog","Gears City","Windforge","Area Zero","Shocktek City"],
+                "civilopediaText": [
+                        {"text":"Gnome Alliance is a gnomish civilization. They pursue scientific innovation and progress, one might say they're the brightest race of this world."},
+                        {"text":"Gnome Alliance has a good Great Scientist generation thanks to its unique Ability. Make sure to prioritize scientific building in your cities especially in the early game to start ramping up its Great Scientist points."},
+                        {"text":"They can harness Mountain tiles which other civilization deemed unworkable. Gnome Alliance's ornithopter flyer unique unit is good for rushing as it comes much earlier than its counterpart because it doesn't need Oil, instead they need Coal."},
+        ]
+        },
+
+        //Zephyr of Harpies Tribe
+        {
+                "name": "Harpies Tribe",
+                "leaderName": "Zephyr",
+                "adjective": ["Harpies"],
+                "startBias": ["Mountain"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".!",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [58,222,107],
+                "innerColor": [20,100,24],
+                "uniqueName": "Feathered Sovereign",
+                "uniqueText": "+1 [Food] from unimproved Hill tiles\nAll footman units gain Flying, they may pass through impassable terrains and see over obstacles",
+                "uniques": ["[Sword] units gain the [Harpy] promotion", "[Civilian] units gain the [Harpy] promotion", "[Gunpowder] units gain the [Harpy] promotion", "[Ranged Gunpowder] units gain the [Harpy] promotion",
+                                        "[Archery] units gain the [Harpy] promotion", "[Scout] units gain the [Harpy] promotion", 
+                                        "[+1 Food] from [Land] tiles [in all cities] <in [unimproved] [Hill] tiles>"],
+                "cities": ["Stormclaw","Alpenia Peak","Bloodfeather","Anzalor Valley","Strongbeak","Marmouth Hills","Emberwing","Sorania Cliff","Stingtail","Marsia Forest","Featherfall",
+                        "Koronea Heights","Steelfang"],
+                "civilopediaText": [
+                        {"text":"Harpies Tribe is a half-human half-bird civilization. They are mountaineous creature and can harness Mountain to its fullest potential."},
+                        {"text":"Harpies Tribe has great bonus after discovering certain techs. Researching those techs ASAP is crucial."},
+                        {"text":"Their unique unit is very strong not only on Mountain tiles but Forest, Jungle, and Hill tiles as well for they also count as obstacles for ranged units."},
+        ]
+        },
 
 
+        //Redleaf of Gaia Preserver
+        {
+                "name": "Gaia Preserver",
+                "leaderName": "Redleaf",
+                "adjective": ["Preservers"],
+                "startBias": ["Forest", "Jungle"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": "Stay away from our sacred ground!",
+                "defeated": "Our forest will burn and our people gone...",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [94,66,66],
+                "innerColor": [227,9,9],
+                "uniqueName": "Gaia's Gift",
+                "uniqueText": "Can build improvement on Forest and Jungle tiles without removing them\n+1 [Culture] from improved Forest and Jungle tiles after discovering Acoustics",
+                "uniques": ["[+1 Culture] from every [Improvement] <in [Forest] tiles> <after discovering [Acoustics]>",
+                                        "[+1 Culture] from every [Improvement] <in [Jungle] tiles> <after discovering [Acoustics]>" ],
+                "cities": ["Redleaf's Grounds","Gravenwoods","Snakeroot","Greenstream","Timberland","Ashengrove","Forlondbranch","Wildwoods","Cloverforest","Overgrowth","Redleaf",
+                        "Nightbush","Entanglingroot"],
+                "civilopediaText": [
+                        {"text":"Gaia Preserver is a group of multi-racial civilization that swear to protect nature. They are consisted of Druids, Shamans, and the likes of them from many races. They consider nature to be sacred. They often form alliance with Nature's Keeper"},
+                        {"text":"Gaia Preserver has a lot of improvement alternatives that doesn't require the removal of Forest/Jungle, making them fast at improving them. Their unique building is a bettter Forge that doesn't need worked Iron nearby, making it an extra production building for the civilization."},
+                        {"text":"Their unique unit is a good scout as well as defensive unit because of their invisibility."},
+        ]
+        },
+
+        //Mårg of The Titans
+        {
+                "name": "The Titans",
+                "leaderName": "Mårg",
+                "adjective": ["Titans"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".!",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [77,145,129],
+                "innerColor": [15,247,193],
+                "uniqueName": "Byggare",
+                "uniqueText": "+40% [Production] when constructing World Wonder for the first time in a city\nMilitary land units are +15% stronger but more expensive to produce",
+                "uniques": ["[+40]% Production when constructing [World Wonder] wonders [in all cities]",
+                                        "[-40]% Production when constructing [World Wonder] wonders [in all cities with a world wonder]",
+                                        "[+15]% Strength <for [{Military} {Land}] units>", 
+                                        "[Gold] cost of purchasing [{Military} {Land}] units [+43]%", 
+                                        "[Faith] cost of purchasing [{Military} {Land}] units [+43]%", 
+                                        "[-30]% Production when constructing [{Military} {Land}] units [in all cities]"],
+                "cities": ["Jättens Gångväg","Storafötter","Starkarm","Blodigthuvud","Skarpaögon","Stampa","Tungtben","Stålfjäder","Längtansplats","Förundrans","Undra",
+                        "Bergig","Höjd"],
+                "civilopediaText": [
+                        {"text":"The Titans is a civilization consisted of giants. They are peaceful civilization. But don't be fooled, they are good at war and fighting because of their sheer size and lots of training in the Arena."},
+                        {"text":"The Titans has a good bonus towards wonder construction, but only the first wonder in a city. It's a little bit tricky bonus that you have to expand wide to maximize its bonus. But you also want to build tall so you can build Wonder more easily."},
+                        {"text":"Their unique unit has the Blitz promotion which makes them strong at war. Make sure to spam it so you can keep the promotion. Their unique building also provide their units with Shock I promotion, making The Titans' unit particularly strong because of promotions stacking."},
+        ]
+        },
+
+        //Goldsnuffle of The Kobolds
+        {
+                "name": "The Kobolds",
+                "leaderName": "Goldsnuffle",
+                "adjective": ["Kobolds"],
+                "startBias": ["Mountain"],
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".!",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [61,37,37],
+                "innerColor": [240,200,0],
+                "uniqueName": "Dig, Dig, Dig!",
+                "uniqueText": "-25% tile improvement construction time in Hill tiles\n+2 [Gold] from resources improved with [Lodepit]",
+                "uniques": ["[-25]% tile improvement construction time <in [Hill] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Iron] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Coal] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Aluminum] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Uranium] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Gems] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Gold Ore] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Silver] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Copper] tiles>",
+                                        "[+2 Gold] from every [Lodepit] <in [Salt] tiles>"],
+                "cities": ["Candle Rock","Whitetunnel","Gravelsnout","Highmountain","Drypickaxe","Mucksnout","Boulderslide","Mudwhisker","Flintdagger","Goldtooth","Bluewax",
+                        "Silver Rock","Steel Mountain"],
+                "civilopediaText": [
+                        {"text":"The Kobolds is a civilization consisted of Kobold, which is a rat-like mountain dweller creature. They are usually found at mines, tunnel, and any cave on mountainous terrain. They are good at digging and finding treasure under the ground."},
+                        {"text":"The Kobolds has a good economic bonus from their unique ability and unique improvement. They gain extra [Gold] and [Culture] from them."},
+                        {"text":"Their unique unit is a Swordsman that doesn't require Iron, which is good for rushing and timing attack. And comes with Drill I promotion to boot"},
+        ]
+        },
+
+        //Zhu Xi of Fanrong Republic
+        {
+                "name": "Fanrong Republic",
+                "leaderName": "Zhu Xi",
+                "adjective": ["The Fanrongs"],
+                "startBias": ["Coast"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".!",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": "This aggrement will most definitely benefits both of us.",
+
+                "outerColor": [240,200,0],
+                "innerColor": [0,0,0],
+                "uniqueName": "Abundance of Wealth",
+                "uniqueText": "+1 [Gold] from Coast\nReceive 3 [Porcelain]s in Capital upon constructing National Treasury",
+                "uniques": ["[+1 Gold] from every [Coast]",
+                                        "Gain a free [Qingbai Wares] [in capital] <if [National Treasury] is constructed>"],
+                "cities": ["Gwangjing","Fushu","Zhongging","Dong Zhe","Ba Chuan","Lauzhun","Dongguang","Chang Shi","Xinzhong","Huideguang","Jan Hai",
+                        "Shijiang","Yunshan"],
+                "civilopediaText": [
+                        {"text":"Fanrong Republic is a human nation. They are prosperous mercantile nation and is the center of trades."},
+                        {"text":"They gain access to Porcelain which for other civilization only available from City States. Make sure to use this advantage."},
+                        {"text":"Fanrong Republic has a Coastal unique building, so settling on Coast is desireable."}
+        ]
+        },
+
+        //Eleanor of The Wizard Council
+        {
+                "name": "The Wizard Council",
+                "leaderName": "Eleanor",
+                "adjective": ["The Wizards"],
+                "preferredVictoryType": "Scientific",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".!",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [85,0,255],
+                "innerColor": [245,91,206],
+                "uniqueName": "Peacemaker Project",
+                "uniqueText": "Receive free [Peacemaker Spell] in capital every era\n+2 [Science] from every [Shrine] and [Temple]",
+                "uniques": ["[+2 Science] from every [Shrine]",
+                                        "[+2 Science] from every [Temple]"],
+                "cities": ["Blasicken","Phocaea","Elashmunein","Poitien","Velitrae","Niue","Boien","Ishe","Madirae","Kiea",
+                        "Sil Ifken","Ringsten","Godthenae","Hellulae","Novosten"],
+                "civilopediaText": [
+                        {"text":"The Wizard Council is a multi-racial civilization consisted of witch, wizard, warlock, and the likes of it."},
+                        {"text":"Despite its Peacemaker name, they are quite good at warfare, thanks to it. Peacemaker Spell is basically a 'guided missile' that you can get from early on for free. They are not good for targeting cities, but can one shot pretty much any units."},
+                        {"text":"Their unique units has a Besiege promotion which is not common for ranged unit as they can be stacked with Volley promotion for a whopping +100% Strength vs cities."},
+        ]
+        },
+
+        //Jinzak of Troll Tribes
+        {
+                "name": "Troll Tribes",
+                "leaderName": "Jinzak",
+                "adjective": ["Trolls"],
+                "startBias": ["Jungle"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Time for hunt!",
+                "attacked": "Hunting time comes early this year!",
+                "defeated": "GAAAHHHH, kill me now! I will not kneel before you!",
+                "introduction": "Muahahaha I am Jinzak, Warlord of the Trolls. Tell me one reason not to chop your head right off.",
+
+                "neutralHello": "Azdingo, yes?",
+                "hateHello": "You are dead to me.",
+                "tradeRequest": "Let's conduct in a trade.",
+
+                "outerColor": [ 66,59,59],
+                "innerColor": [255,178,72],
+                "uniqueName": "The Great Hunt",
+                "uniqueText": "Land units gain the [Woodsman] promotion\nReceive a free Sword or Gunpowder units upon discovering the technology that unlocks them",
+                "uniques": ["[Land] units gain the [Woodsman] promotion",
+                                        //Receive free stuffs
+                                        "Receive free [Troll Headhunter] when you discover [Bronze Working]",
+                                        "Receive free [Swordsman] when you discover [Iron Working]",
+                                        "Receive free [Pikeman] when you discover [Civil Service]",
+                                        "Receive free [Longswordsman] when you discover [Steel]",
+                                        "Receive free [Musketman] when you discover [Gunpowder]",
+                                        "Receive free [Rifleman] when you discover [Rifling]",
+                                        "Receive free [Great War Infantry] when you discover [Replaceable Parts]",
+                                        "Receive free [Infantry] when you discover [Plastics]",
+                                        "Receive free [Mechanized Infantry] when you discover [Mobile Tactics]"],
+                "cities": ["Trezzahn","Zulabar","Nuenvan","Vinji","Jinthaiya","Alunja","Vinji","Usitutie","Zulrea","Khijazi","Kizi",
+                        "Katzine","Girisha","Zuljin","Teza","Zulwatha"],
+                "civilopediaText": [
+                        {"text":"Troll Tribes lives deep inside the jungle. They often come out from the jungle to hunt for humans. They eat humans for breakfast."},
+                        {"text":"Troll Tribes has a solid early domination bonus after you discover certain techs. So prioritizing those techs is advised before you go to war."},
+                        {"text":"Their unique building has a good production bonus but their unique unit require a bit of luck to be strong."},
+        ]
+        },
+
+        //Silithar of Scazari Hive
+        {
+                "name": "Scazari Hive",
+                "leaderName": "Silithar",
+                "adjective": ["Scazari"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "I deemed you a threat to the colony.",
+                "attacked": "We are billions. You will fall.",
+                "defeated": "No... My children, I'm sorry.",
+                "introduction": "I am the Queen of Scazari, immortal Mother of all Scazari. What matter brings you here?",
+
+                "neutralHello": "Yes?",
+                "hateHello": "Don't come near us!",
+                "tradeRequest": "We could form a mutual agreement.",
+
+                "outerColor": [75,135,30],
+                "innerColor": [255,239,8],
+                "uniqueName": "We Are Billions",
+                "uniqueText": "+1 [Production], +1 [Happiness] in all cities\n+5% [Culture] from every [Food] buildings",
+                "uniques": ["[+1 Production, +1 Happiness] [in all cities]", "[+5]% [Culture] from every [Food]"],
+                "cities": ["Vurl Raxl","Aklac","Raxibb","Ypaccib","Avixail","Haxizabb","Tymcrix","Oxocodolf","Varlinaca","Lobbtika","Ufpol",
+                        "Laxtric","Nobhax","Pomic Krac","Leexidanaca","Crumtica"],
+                "civilopediaText": [
+                        {"text":"Scazari Hive is a sentient hive-minded insectoid civilization. They have mantis-like appearance. Scazarian are able to telepathically communicate with their Queen directly. They are just seeking to breed their own species to ensure survival of the colony"},
+                        {"text":"Scazari Hive has a solid economic bonus from its unique ability. Countering the unhappiness from every city built."},
+                        {"text":"Their unique building has a good specialist that produces Food and Culture (which doesn't consume food for some reason). And their unique unit has a very good defensive bonus."},
+        ]
+        },
+
+
+        //Anub'arak of Nerubian Kingdom
+        {
+                "name": "Nerubian Kingdom",
+                "leaderName": "Anub'arak",
+                "adjective": ["Nerubian"],
+                "startBias": ["Tundra"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": "What now?.",
+                "tradeRequest": "This will certainly lived up to your expectation.",
+
+                "outerColor": [213,249,255],
+                "innerColor": [139,96,230],
+                "uniqueName": "Azjol-Nerub",
+                "uniques": ["[+25]% Production when constructing [Ranged] units [in all cities]",
+                                        "[+10]% Strength <for [Ranged] units>"],
+                "cities": ["Krezon","Za'as","Greltusab","Hertuzet","Kril'thek","Nenilrir","Krilthon","Trik'thok","Yishishral","Sakh'il","Kumos",
+                        "Hunot","Susthelas"],
+                "civilopediaText": [
+                        {"text":"Nerubian is a human-arachnid species from the Warcraft lore. They are ancient species that live in the arctic."},
+                        {"text":"Nerubian Kingdom unique ability is a solid production bonus when constructing Ranged units. While their Ranged units get stronger with Nerubian Kingdom's other unique ability."},
+                        {"text":"Their unique building has a good [Science] bonus in Tundra tile. And their unique unit is an expensive but stronger version of Archer."},
+        ]
+        },
+
+
+        //Bloodhoof of Tauren Clan
+        {
+                "name": "Tauren Clan",
+                "leaderName": "Bloodhoof",
+                "adjective": ["Taurens"],
+                "startBias": ["Grassland"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "High Chieftain Bloodhoof of the Taurens, whisperer of the Spirits, defender of the Earthmother. You've proven your worth in the Rites of the Earthmother. And you continued to prove your worth, leading the Tauren various Clans into one, uniting them under one  banner. You've made the Sky Father proud of your accomplishment.",
+                "startIntroPart2": "O, Bloodhoof, your people need you once more. Will you lead them to triumph? Will you make Earthmother and Sky Father proud? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "The clans has decided, your end is nigh!",
+                "attacked": "Don't you dare to defy the will of the Spirits!",
+                "defeated": "Our legacy... Please, let our legacy be free.",
+                "introduction": "Well met stranger, I am High Chieftain Bloodhoof, leader of the Taurens.",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "State your need!",
+                "tradeRequest": "A trade request, one that assist both of us.",
+
+                "outerColor": [84, 43, 11],
+                "innerColor": [12,242,189],
+                "uniqueName": "Grimhorn's Nemesis",
+                "uniques": ["[+1 Gold, +1 Faith] from every [Farm] <in [Grassland] tiles>",
+                                        "[+33]% XP gained from combat"],
+                "cities": ["Thunderbluff","Bloodroar","Softsinger","Gloomblend","Rainhide","Threeforest","Proudhorn","Mistshot","Wintertotem","Truthwood","Ragewalker",
+                        "Thundertusk","Swiftwinds","Suntotem","Wheatmane","Dawnrunner"],
+                "civilopediaText": [
+                        {"text":"Tauren Clan is a Tauren civilization, which is a Minotaur-like, bottom-half human and upper-half bull, creature from Warcraft lore. They are constantly at war with the Centaur Tribes, contesting the same plains and grasslands to feed on."},
+                        {"text":"Tauren Clan's unit are particularly good at warfare thanks to its unique ability gaining extra experience from every combat."},
+                        {"text":"And their unique building also boost Tauren Clan's unit's capabilities with a free promotion. The Strengths promotion will give access to 5 other promotions exclusive for units with Strengths promotion."},
+        ]
+        },
+
+        //The Walrus People
+        {
+                "name": "The Walrus People",
+                "leaderName": "Yurr",
+                "adjective": ["Walrus People"],
+                "startBias": ["Tundra"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": ".",
+                "defeated": ".",
+                "introduction": ".",
+
+                "neutralHello": ".",
+                "hateHello": ".",
+                "tradeRequest": ".",
+
+                "outerColor": [99,39,39],
+                "innerColor": [46,133,108],
+                "uniqueName": "Howling Fjord",
+                "uniqueText": "Receive free Settler in all cities settled on Snow tiles\n+1 [Food], +1 [Production], and +1 [Culture] in all cities with less than 5 population, +2 if settled on Tundra, +4 if settled on Snow",
+                "uniques": ["Free [Settler] appears <upon founding a city> <in [Snow] tiles>",
+                                        "[+1 Culture, +1 Food, +1 Production] [in all cities]", "[-1 Culture, -1 Food, -1 Production] [in all cities] <in cities with at least [5] [Population]>",
+                                        "[+1 Culture, +1 Food, +1 Production] in cities on [Tundra] tiles", "[-1 Culture, -1 Food, -1 Production] in cities on [Tundra] tiles <in cities with at least [5] [Population]>",
+                                        "[+3 Culture, +3 Food, +3 Production] in cities on [Snow] tiles", "[-3 Culture, -3 Food, -3 Production] in cities on [Snow] tiles <in cities with at least [5] [Population]>"], 
+                "cities": ["Nainarfet","Coldstone","Ikkash","Paimejuq","Qoqnirk","So'kak","Icyrock","Mook'urna","Tusk","Darurraq","Brownfur","Uudwernot",
+                        "Mook'urna","Hrewengit","Sha'iliish","Hurrachiiq","Kepvaii"],
+                "civilopediaText": [
+                        {"text":"The Walrus People is a walrus-like creature civilization. They live nomadic life, often changing one settlement to another after a period of time and their food supply ran short."},
+                        {"text":"The Walrus people has a good but tricky bonus to wide empire and a strong early game defense to boot. Their free Settlers and yields are very good only under certain circumstances."},
+                        {"text":"Make sure to manage your [Happiness] and don't rush to settle many cities on Snow tiles for consecutive free Settler. More cities mean more unhappiness."},
+        ]
+        },
+
+        //Argeon of Lyrian Kingdom
+        {
+                "name": "Lyrian Kingdom",
+                "leaderName": "Argeon",
+                "adjective": ["Lyrian"],
+        //        "startBias": ["Grassland"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": "Hail King Argeon, ruler of Lyrian. Your reign is a golden age of cultural advancement. Solidifying the country's policies has ushered the Kingdom unto an age of prosperity. A new effective and efficient bureaucracy you've devised has made your Kingdom opulent.",
+                "startIntroPart2": "O, King Argeon, your people need you once more to lead them in this trying times. Will you ushered into a new prosperous era? Will you defend your people from upcoming crisis? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "For the sake of my people, I declare war on thee!",
+                "attacked": "So this is it. You've lost your senses!",
+                "defeated": "Even our walls can't protect us from your might...",
+                "introduction": "Well met, I am King Argeon, leader of Lyrian, one who stands unchallenged!",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "What is it now?",
+                "tradeRequest": "This aggrement would surely benefits both of us!",
+
+                "outerColor": [255,223,107],
+                "innerColor": [115,82,235],
+                "uniqueName": "Royal Decree",
+                "uniques": ["[+2 Gold] per [2] social policies adopted",
+                                        "[-10]% Culture cost of adopting new Policies"],
+                "cities": ["Lyonar","Amalgam","Koromia","Fogcastle","Ceteus","Harsmouth","Keinberg","Norwanlan","Exica","Fjordon","Kastovic",
+                        "Spelford","Leronia","Blackvale","Northwestex","Rostburgh"],
+                "civilopediaText": [
+                        {"text":"Lyrian Kingdom is a human civilization. Having a very defensive doctrine, they don't usually wage war against other. Protecting the country's land and sovereignty and improving upon their own internal affairs."},
+                        {"text":"Lyrian Kingdom unique ability is very good for cultural victory, combined with their unique building, Lyrian Kingdom can grab policy like no tomorrow."},
+                        {"text":"Their unique unit has the Healer promotion, making adjacent unit heals more when healing."},
+        ]
+        },
+
+        //Holy Lunar Theocracy
+        {
+                "name": "Holy Lunar Theocracy",
+                "leaderName": "Celeste",
+                "adjective": ["Lunari"],
+                "startBias": ["Avoid [Desert]"],
+                "preferredVictoryType": "Scientific",
+
+                "startIntroPart1": "Celeste of Holy Lunar Theocracy, by the grace of the Moon, you've led your people through troubled times. By Her guide and Her messenger, you ruled the Theocracy with mercy while you conquer those who dared to defy with great vigor.",
+                "startIntroPart2": "O, Celeste, the Lunar has favored you, granted you power and cunningness for you to rule. Will you meet Her expectations? Will you build a nation upon Her mercy? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Your country shall receive our judgement!",
+                "attacked": "You dare to oppose us? The Lunar's own child?",
+                "defeated": "Oh mighty Lunar, why hast thou forsaken us?",
+                "introduction": "Greetings, I am Celeste, supreme leader of Lunari people! I welcome you to my court.",
+
+                "neutralHello": "By the Lunar's grace, we greet thee.",
+                "hateHello": "Not now.",
+                "tradeRequest": "The Lunar has spoken to us that you will accept this bargain.",
+
+                "outerColor": [113,12,201],
+                "innerColor": [182,186,224],
+                "uniqueName": "Lunar's Blessing",
+                "uniqueText": "Receive free [Great Prophet] when you complete [Aspect of the Moon] for the first time in Capital\nReceive free [Great Scientist] when you complete a World Wonder for the first time in Capital",
+        /*        "uniques": ["Free [Great Prophet] appears <upon constructing [Aspect of the Moon] <in cities with a [Palace]> <in cities without a [Lunar's Revelation]>", 
+                                        "Gain a free [Lunar's Revelation] [in capital] <in cities with a [Aspect of the Moon]>", 
+                                        "Free [Great Scientist] appears <upon constructing [World Wonder] [in capital]> <in cities with a [Palace]> <in cities without a [Lunar's Invention]>",
+                                        "Gain a free [Lunar's Invention] [in capital] <in cities with a [World Wonder]>",],
+        Doesn't work        */
+                "cities": ["Lunarius","Aeris","Xyranthius","Korolia","Mirias","Yolis","Valecia","Nightfall","Estest","Mellago","Albua",
+                        "Vrybergam","Rahvun","Rumul","Cygnus","Diana"],
+                "civilopediaText": [
+                        {"text":"Holy Lunar Theocracy is a Lunari civilization, a nocturnal humanoid race, rival of the Sacred Sun Theocracy, often having dispute of their exact opposite believe and being a non-human civilization. Holy Lunar Theocracy often conquer other land by the Lunar's order."},
+                        {"text":"Holy Lunar Theocracy unique ability pretty much guarantee a religion which is very good, especially in higher difficulty game."},
+                        {"text":"Their unique building provides your specialist with extra [Faith] and [Science] yield, making their specialist good for achieving Scientific victory. The Arbiter has a really good promotions, making them quite good at warfare as well."},
+        ]
+        },
+
+        //Vaath II of Magnar Empire
+        {
+                "name": "Magnar Empire",
+                "leaderName": "Vaath II",
+                "adjective": ["Magnarian"],
+        //        "startBias": ["Grassland"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "The Great Emperor Vaath II of Magnar Empire! Ruthless but cunning, you lead your people with iron fist. Although your people suffer from your tyrannical rule, your empire succeded where others fall. You came and conquer one nation after another. Forced their citizen upon your uncontested rule, a cruel yet effective directive.",
+                "startIntroPart2": "You will rise once more. Rule your unwilling citizen again. Will you rule over the weak? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "I'll conquer your land, take your citizen, and hang you!",
+                "attacked": "How DARE you!?",
+                "defeated": "No, this can't be true. I am Vaath II, my reign is eternal!",
+                "introduction": "I am Emperor Vaath II, the Great ruler of Magnar Empire. You may call me Your Majesty.",
+
+                "neutralHello": "Oh, it's you.",
+                "hateHello": "Begone NOW!",
+                "tradeRequest": "You will accept this.",
+
+                "outerColor": [54,158,94],
+                "innerColor": [0,0,0],
+                "uniqueName": "Forced Levy",
+                "uniqueText": "May purchase strongest available Melee unit with population once per city\n+2 [Gold], +2 [Production] in annexed cities",
+                "uniques": ["[+2 Gold, +2 Production] [in annexed cities]",
+                                        "New [Wrecker Maceman] units start with [15] Experience [in all cities]"],
+                "cities": ["Drogon","Taygete","Grimrock","Haruspex","Hatena","Kujata","Makantor","Moloki","Rizen","Thulu","Isenmaar",
+                        "Knosph","Squelor","Atabury","Golonac","Ototh"],
+                "civilopediaText": [
+                        {"text":"Magnar Empire is a human empire built on slavery. Their cruel and tyrannical emperor, Vaath the Second, ruled with iron fist. Forciing its citizen to partake in Military effort."},
+                        {"text":"Magnar Empire unique ability is strong, but is a little bit tricky. You don't want to sacrifice your population for weak and unimpactful units. Rather use some timing to better maximize its effect."},
+                        {"text":"Their unique unit starts with extra experience. Combined with experience giving building, this is a massive boost to Magnar warfar capabilities."},
+        ]
+        },
+
+        //Kronus of Lithoid Combine
+        {
+                "name": "Lithoid Combine",
+                "leaderName": "Kronus",
+                "adjective": ["Lithoids"],
+                "startBias": ["Hill"],
+        //        "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "All hail mighty Kronus of the Lithoid Combine! Awakened from your deep slumber, you call forth upon your buried people. Waking them from their sleep, leading them to glory once more. Cities and countries now long gone, your people must start anew in this foreign world.",
+                "startIntroPart2": "O, Kronus, your people call upon your name once more. Will you rise and lead them to glory? Will you stand up and challenge this unknown world? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "We can't tolerate you! I'll smash you into pieces!",
+                "attacked": "Oh, so you chose death.",
+                "defeated": "The Lithoids will survive.",
+                "introduction": "I am Kronus, leader of the Lithoid Combine. I welcome you, stranger.",
+
+                "neutralHello": "Ah, my venerated guest.",
+                "hateHello": "What?",
+                "tradeRequest": "This inquiry will certainly intrigue you.",
+
+                "outerColor": [117,67,20],
+                "innerColor": [49,173,169],
+                "uniqueName": "Deep Slumber",
+                "uniqueText": "May unearth population from adjacent Hill or Mountain up to 3 times per city",
+                "cities": ["Forgefall","Kiln Edge","Leevoss","Pittenrock","Bordstone","Armstane","Falkid","Eskrick","Undulonn","Rask","Ousten Bank",
+                        "Ratholl","Baikenvoss","Apitea","Mennia","Lamder"],
+                "civilopediaText": [
+                        {"text":"Lithoid is an ancient sentient creature made up of rock and earthly minerals. They are waking up from their deep slumber inside the earth. They can eat minerals for their sustenance instead of normal organic food like other creature."},
+                        {"text":"Lithoid Combine is a good tall civilization thanks to their unique abilities. Settle cities adjacent to Hill and Mountain to use their unique abilities. It is particularly good for tall playstyle because they can basically turn production into population."},
+                        {"text":"Don't be too hasty on unearthing Lithoid population. Make sure they don't starve before you unearth new Lithoid. Or wait until you have a hard time raising your population."},
+                        {"text":"Their unique building further improve upon their ability with +1 [Food] to Mine. Their unique unit is a better Trebuchet that doesn't have to set up to attack."},
+        ]
+        },
+
+        //Ash Ignimbrite of Basalt Remainers
+        {
+                "name": "Basalt Remainers",
+                "leaderName": "Ash Ignimbrite",
+                "adjective": ["Basaltlings"],
+                "startBias": ["Hill"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "Rising emperor Ash Ignimbrite, buried under the ashes and lava of an old world volcano for centuries, you and your people emerge from the desolation to roam the world once more and continue living by a determined fate. They were risen from the dead as constructs and humanoid basalt creatures by the arcane powers slumbering within the volcano. It also granted them abilities and burdens of normal human beings. Being fate-bonded to volcanic ash, you posess the power to awaken any mountain as a volcano.",
+                "startIntroPart2": "Ash Igimbrite, you and your people were given a second chance. Can you lead your people to a glorious new fate? Will you protect the volcanoes that you now call home? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "May your soul be buried under ashes like mine has been",
+                "attacked": "The magma is designated for you!",
+                "defeated": "We may have fallen now, but We will rise back from the ashes. It wouldn't be the first time.",
+                "introduction": "You may call me Ash Ignimbrite, it's not my name, but it serves the same purpose. I hope you stay away from our volcanoes, or we'll turn up the heat",
+
+                "neutralHello": "May your soul have a better fate than mine",
+                "hateHello": "Do you mind if I have better things to do?",
+                "tradeRequest": "The Basaltlings are ready to offer this trade",
+
+                "outerColor": [90,93,95],
+                "innerColor": [154,170,170],
+                "uniqueName": "From Ashes to a New Fate",
+                "uniqueText": "Melee Land units deal extra damage against cities, but are harder to sustain\nMountains and City Ruins yield extra [Gold]\nMay trigger an eruption once in every city next to mountain when at war (up to 12 times)",
+                "uniques": ["[+3 Gold] from every [Mountain]","[+2 Gold] from every [City ruins]","[+1 Gold] from every [City ruins] <after discovering [Civil Service]>",
+                                        "[{Melee} {Land}] units gain the [Besiege] promotion","[-1] Unit Supply per city","[+20]% maintenance costs <for [{Land} {Melee}] units>"],
+                "cities": ["Pumpejj","Ash Mountains","Vusevtown","Napibotu","Naet","Taokraka","Laueaki","Jifu","Ratambo","Drolikischaman","Nosoro","St Lenshe","Listrombo",
+                        "Nierrai","Gahun Paihaa","Capetlpotepo","Ranyigogon","Jafeylajalkulljö"],
+                "civilopediaText": [
+                        {"text":"Basaltlings are constructs and zombie likes consisting of volcanic ash and rocks. They were once human beings that became victims of an active volcano. They now have a special relation to mountains. They are ready to defend them with their otherwise meaningless lives. They can even awaken volcanoes slumbering deep below when threatened."},
+                        {"text":"Basalt Remainers are a good civ for both defense and early wars, with free besiege promotion for melee units and early Swordsman unique. You may also use eruptions to get missile-like units and gain a high military production."},
+                        {"text":"Be aware that eruptions will also stop growth and faith gain in all cities that erupted once, so think twice before triggering them. You should settle all your cities next to mountains or razed cities to use the nation's full potential"},
+                        {"text":"When playing Basalt Remainers you should avoid automatizing your workers as they will replace the city ruins with other improvements."},
+           ],
+        },
+
+        //Huwbert of The Chroniclers
+        {
+                "name": "The Chroniclers",
+                "leaderName": "Muarakh",
+                "adjective": ["Chroniclers"],
+                "startBias": ["Desert"],
+                "preferredVictoryType": "Scientific",
+
+                "startIntroPart1": "Hail Muarakh the Lorekeeper. Your secret order now has revealed to the world. Time for you to rise and protect the history of the world. Your order has always been watching the changes of the world. Recording each and every major events that changed the course of this world.",
+                "startIntroPart2": "Oh great Lorekeeper, will you record the happenings of this new world you've been brought into? Will you defend your archive from barbarous people? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "We are the preserver of history, except yours.",
+                "attacked": "You will not be remembered.",
+                "defeated": "Our legacy, all of history, now gone, burned to the ground.",
+                "introduction": "Well met strangers. Allow me to introduce myself as Muarakh, we are the Chroniclers, we perserve histories. What will you leave for the world to see?",
+
+                "neutralHello": "Peace be upon you.",
+                "hateHello": "What?",
+                "tradeRequest": "We hereby request your assistance.",
+
+                "outerColor": [232,230,230],
+                "innerColor": [5,125,145],
+                "uniqueName": "Shrouded Archivist",
+                "uniques": ["Gain a free [Archive] [in all cities] <within [2] tiles of a [Desert]> <after discovering [Writing]>","[+34]% Production when constructing [Science] buildings [in all cities]"],
+                "cities": ["Matabbah","Al Karak","Madai'in","Jissa","Ohakim","Abboud","Shaurya","Kumar","Nadeer","Imani","Matshediso",
+                        "Kunlun","Ararat"],
+                "civilopediaText": [
+                        {"text":"Chroniclers is a secret societies that records all the happenings in the world. A historian of the world. Making sure no history left to be buried. And making sure no knowledge is to be forgotten."},
+                        {"text":"Chroniclers has a good [Science] output in early game thanks to their unique ability and unique building. Settle as many of your cities in Desert tile to instantly receive an Archive for free."},
+                        {"text":"Their unique unit is a good defending force to protect your cities in the mid-game."}
+        ]
+        },
+
+        //Zalash of Salamander Empire
+        {
+                "name": "Salamander Empire",
+                "leaderName": "Zalash",
+                "adjective": ["Salamanders"],
+                "startBias": ["Desert"],
+
+                "startIntroPart1": "Great Emperor Zalash of the Salamanders! Your name echoed through the realm, your people praised your benevolent rule. You protected the empire with honor, guarding it from those who seek destruction upon the empire. Your understanding of the Sun magic helps you construct the most beautiful of craft. The Sun Obelisk that will destroy those who dare to defy your will.",
+                "startIntroPart2": "O, mighty Zalash. Your people call upon your name once more. Will you answer them and lead them once more? Will you lead them and defend them? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Your empire shall fall, while ours rise and conquer!",
+                "attacked": "You will not live to see the end of this!",
+                "defeated": "Oh great Sun, wasn't your power enough to protect us?",
+                "introduction": "Indeed you have heard of me! I am Zalash, the Emperor of the Salamanders, consider yourself lucky to be in my presence.",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "What?",
+                "tradeRequest": "I request you to accept this trade offer.",
+
+                "outerColor": [245,93,5],
+                "innerColor": [255,255,255],
+                "uniqueName": "Incandescent Ray",
+                "uniqueText": "Receive free [Sun Obelisk] in all cities\n+1 [Food] in City Center for each adjacent Desert tiles\n+1 [Faith] in City Center for every 2 adjacent Desert tiles",
+                "uniques": ["Free [Sun Obelisk] appears <upon founding a city>",
+                                        "[+1 Food] [in all cities] <with [1] to [1] neighboring [Desert] tiles>",
+                                        "[+2 Food, +1 Faith] [in all cities] <with [2] to [2] neighboring [Desert] tiles>",
+                                        "[+3 Food, +1 Faith] [in all cities] <with [3] to [3] neighboring [Desert] tiles>",
+                                        "[+4 Food, +2 Faith] [in all cities] <with [4] to [4] neighboring [Desert] tiles>",
+                                        "[+5 Food, +2 Faith] [in all cities] <with [5] to [5] neighboring [Desert] tiles>",
+                                        "[+6 Food, +3 Faith] [in all cities] <with [6] to [6] neighboring [Desert] tiles>"],
+                "cities": ["Ra'Bothnor","Ka'Tanab","Ata'Podossa","Pan'Kischa","Na'Valus","Bid'Tarakii","Shil'Tanask","Fal'Kaboss","Gal'Suposk","Ro'Essek","Nas'Simmir",
+                        "Shi'Poltan","Ira'Monosk"],
+                "civilopediaText": [
+                        {"text":"Salamnder is a variant race of the Lizardmen. They live in desert instead of river or lake. They have particularly high resistance to heat. They worship the sun and can harness its power through magic."},
+                        {"text":"Salamander Empire is a good defensive civilization. They have an extra defensive building from their unique building. And they gain access to Sun Obelisk which basically lets your cities attack twice."},
+                        {"text":"Their unique unit is also good for defending your land because of their promotion and start bias."},
+                        {"text":"Make sure to purchase the Construct Sun Obelisk building to receive Sun Obelisk in cities settled next to Desert. And don't forget to upgrade your Sun Obelisk every era."},
+        ]
+        },
+
+        //Aetera of The Eternals
+        {
+                "name": "The Eternals",
+                "leaderName": "Aetera",
+                "adjective": ["Eternals"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "Long live Aetera, leader amongst the Eternals! It has been ages since your bodies turned into mere bone. But you preserved and feed upon those who can't fight back against your might. You've led your people for centuries, and for more centuries to come. You won't let the glory of the Eternals be disrupted by others.",
+                "startIntroPart2": "O, Aetera, your people seek your wisdom once more. Will you lead them to glory? Will you live long enough to see others bend to your will? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Our victory is guaranteed, you are already defeated!",
+                "attacked": "So you dare to defy our will? Very well, prepare to be utterly destroyed!",
+                "defeated": "We are the ultimate species, but we lose to lesser being like you?",
+                "introduction": "I am Aetera, the leader of The Eternals, the ultimate species of this world. Your soul brims with energy.",
+
+                "neutralHello": "Hello.",
+                "hateHello": "The cattle wants to speak.",
+                "tradeRequest": "You must follow our order!",
+
+                "outerColor": [108,188,235],
+                "innerColor": [109,32,186],
+                "uniqueName": "Necrophages",
+                "uniqueText": "Military Land unit heals 20 damage if it kills a unit\n+2 [Food], +1 [Happiness] per 5 population in all cities",
+                "uniques": ["[+1 Happiness, +2 Food] per [5] population [in all cities]",
+                                        "[{Military} {Land}] units gain the [Eternal] promotion"],
+                "cities": ["Cloctii","Xulzenoca","Icti","Tect","Nuitz","Mezactii","Aquetoc","Aeqantzi","Eopt","Huctl","Auiza",
+                        "Eluqec","Inqotl"],
+                "civilopediaText": [
+                        {"text":"The Eternals are long-lived creatures that feeds from the life essence of other race, soul-vampirism one might say, they are Necrophages. Though their soul last long, their body doesn't, eventually becoming more and more rotten and until only bone left. They see other lesser being as cattle for them to feed upon."},
+                        {"text":"The Eternals is a good domination and scientific civilization. Their unique ability lets military unit heals after they kill a unit. The unique unit is a Warrior which can ignore terrain cost, can be a good Scout replacement considering their cost is almost as cheap as Scout."},
+                        {"text":"Their unique building is a great University replacement with bonus to Great Person generation durin Golden Age. Combined with the Happiness gained from unique ability, it is a good building."},
+        ]
+        },
+
+        //Aran of Precursor
+        {
+                "name": "Precursor",
+                "leaderName": "Aran",
+                "adjective": ["Precursors"],
+                "preferredVictoryType": "Scientific",
+
+                "startIntroPart1": "Great Aran of the Precursor! As the firstborn, your people have gone through the most out of them all. Your civilization rose and fell with the passing of times. Until finally, met with your demise from internal conflict. Your people gone, your technology lost, and this world you once ruled, have forgotten you.",
+                "startIntroPart2": "Oh venerated Aran, you and your people called once more to start all over again. Will you lead your people to golden age? Will you prevent the demise of your people? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "You stand no chance against our army. Prepare for war!",
+                "attacked": "So, we can't understand each other after all?",
+                "defeated": "To be erased from existence twice is not a good feeling.",
+                "introduction": "Sughen stranger, I am Aran of the Precursor, we welcome you.",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "What is it now?",
+                "tradeRequest": "Let us trade.",
+
+                "outerColor": [49,59,50],
+                "innerColor": [23,212,33],
+                "uniqueName": "We Who Came First",
+                "uniques": ["[+1 Food] from every specialist [in all cities]",
+                                        "Gain a free [Arcanum] [in capital]"],
+                "cities": ["Erathon","Oramath","Jinnir","Kornas","Veriban","Valdus","Nith","Nathka","Pishar","Makora","Kathon",
+                        "Sarish","Iribla"],
+                "civilopediaText": [
+                        {"text":"Precursor is the primordial race on this world. Time before other races appeared, Precursor was there, they are the first of many. Precursor are very intelegent races, they were technologically advanced race. Now long gone but brought back on equal footing."},
+                        {"text":"Precursor is good at early scientific thanks to their unique abilities providing free Arcanum in capital. The free +1 [Science] from their unique building is massive when combined with the Scientist that comes with it.Thanks to their other unique abilities, the Scientist can be immediatly put to use, generating +4 Great Scientist point from turn 1. Free Aranum in Capital also means Precursor has +1 [Faith] from turn 1."},
+                        {"text":"Their unique unit is a better Scout which has +1 Sight and can be upgraded to Composite Bowman instead of Archer. Making them great at scouting for potential threat or land to settle."},
+        ]
+        },
+
+        //Tarqiel of Celestial Being
+        {
+                "name": "Celestial Beings",
+                "leaderName": "Tarqiel",
+                "adjective": ["Celestials"],
+                "preferredVictoryType": "Cultural",
+
+                "startIntroPart1": "Praise be Archangel Tarqiel of Celestial Beings. Your people came from the Higher Plane to preach the ignorant and primitive natives of your path. Your rule is fair and just, your people held high regards of the way you guide the people.",
+                "startIntroPart2": "O, Tarqiel, now an unprecedented challenges has been brought upon you. Will you become the light that shines in the darkness? Will you guide the ignorants on the correct path? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "You shall receive Judgement!",
+                "attacked": "You shall repent!",
+                "defeated": "This is not the end, we will be brought back.",
+                "introduction": "Greetings, I am Tarqiel, one who leads the Celestials. We've come to enlighten you and your people",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "Infidel.",
+                "tradeRequest": "I strongly suggest you accept this offer.",
+
+                "outerColor": [237,216,184],
+                "innerColor": [  0, 54,255],
+                "uniqueName": "Enlightenment",
+                "uniqueText": "+1 [Faith] from every Defensive buildings\nWhen spreading religion to a city, gain 10 times the amount of followers of other religions as [Culture]",
+                "uniques": ["When spreading religion to a city, gain [10] times the amount of followers of other religions as [Culture]",
+                                        "[+1 Faith] from every [Curative Spire]",
+                                        "[+1 Faith] from every [Walls]",
+                                        "[+1 Faith] from every [Castle]",
+                                        "[+1 Faith] from every [Arsenal]",
+                                        "[+1 Faith] from every [Military Base]"],
+                "cities": ["Thraemeus","Oriel","Jazriul","Melevon","Zachriel","Jophiel","Dumah","Edelbart","Ruhiel","Zagzagel","Sealtiel",
+                        "Halalia","Serradus"],
+                "civilopediaText": [
+                        {"text":"Celestial Beings is a civilization from the higher plane of existence. They came to this world to enlighten the natives of their way."},
+                        {"text":"Celestial Beings is a good cultural and religion civilization. Their unique ability gaining [Faith] from Defensive building can help with your religious endeavor, which when succesful, they gain boost in [Culture]."},
+                        {"text":"Their unique unit is a ranged unit that isn't weak against melee attacker. When their HP is very low, they can do suicide attack which can deal a lot of damage."},
+        ]
+        },
+
+        //Zorgorath of Hellbourne
+        {
+                "name": "Hellbourne",
+                "leaderName": "Zorgorath",
+                "adjective": ["Hellborns"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "Great Demon Lord Zorgorath, will command to victory! The Hellbourne has risen from the depths of Hell, surfacing into an unknowing and unprepared world. You ready to conquer, your people eager to claim yet another world for their own.",
+                "startIntroPart2": "O, Zorgorath, the Hellborns need a strong leader like you. Will you rise and conquer this new world? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "We have come to destroy and conquer.",
+                "attacked": "You will face the wrath of the Hellbourne!",
+                "defeated": "Damn you! I'll curse your blood with my last remaining power!",
+                "introduction": "Ash dägül! I am Zorgorath, the great demon lord of Hellbourne, you will bow before us!",
+
+                "neutralHello": "Speak.",
+                "hateHello": "Get out.",
+                "tradeRequest": "It's unusual for us to bargain, but alas.",
+
+                "outerColor": [245,70,22],
+                "innerColor": [  0, 0,0],
+                "uniqueName": "From the Depths of Hell",
+                "uniqueText": "Free [Archdemon Azaniroth] appears upon discovering [Theology] (can be revived at an increasing price of 400 [Faith])\n+30% [Production] when constructing Military units when at peace",
+                "uniques": ["Free [Archdemon Azaniroth] appears <upon discovering [Theology]>", "Gain a free [Altar of Azaniroth] [in capital] <after discovering [Theology]>", 
+                                //        "[All] units gain the [Hellborn] promotion",
+                                        "May buy [Archdemon Azaniroth] units for [400] [Faith] [in all cities] at an increasing price ([400]) <after discovering [Theology]>",
+                                        "[+30]% Production when constructing [Military] units [in all cities] <when not at war>"],
+                "cities": ["Xaphempunzu","Baalakibu","Gothi","Sovil","Xellaym","Muratzo","Kragoch","Pazunatas","Xaphirou","Zothra","Vasso",
+                        "Sucorei","Xgorgon"],
+                "civilopediaText": [
+                        {"text":"Hellbourne is a civilization rising from the depths of Hell. Their greed led them to conquer this world."},
+                        {"text":"Hellbourne is a good domination civilization thanks to its unique abilities. They can easily pump military units to prepare for war when at peace. They also gain access to Archdemon Azakroth which is a good hero unit that scales with era."},
+                        {"text":"Their unique unit can heal after they kill an enemy, so make sure to last hit with the lowest HP Bloodfiend to keep them alive."},
+        ]
+        },
+
+        //Dreckfang of Gnoll Warband
+        {
+                "name": "Gnoll Warband",
+                "leaderName": "Dreckfang",
+                "adjective": ["Gnolls"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "Mighty Dreckfang of Gnoll Warband, your strength and cunningness is respected among the Gnolls. You claim leadership of the Gnolls by force, and made them into fearsome mercenaries. Your thirst for war is unquenchable.",
+                "startIntroPart2": "O, Dreckfang, you will lead your people once more into the battlefield. Will you triumph over your opponent? Will you satisfy your thirst for war? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Mwahahah you will fall before our might!",
+                "attacked": "Finally a worthy opponent!",
+                "defeated": "You've been a worthy challenge for the mighty Dreckfang..",
+                "introduction": "I am Dreckfang the Mighty, are you ready for a challenge?",
+
+                "neutralHello": "What do you want?",
+                "hateHello": "Move away!",
+                "tradeRequest": "Gah, we need something.",
+
+                "outerColor": [81,69,55],
+                "innerColor": [212,139,80],
+                "uniqueName": "Feared Mercenaries",
+                "uniqueText": "Empire enters a 5-turn Golden Age and receive a free strongest available Melee unit upon declaring war with a major Civilization",
+                "uniques": ["Empire enters a [5]-turn Golden Age <upon declaring war with a major Civilization>",
+                                        "Free [Warrior] appears <before discovering [Iron Working]> <upon declaring war with a major Civilization>", 
+                                        "Free [Swordsman] appears <after discovering [Iron Working]> <before discovering [Steel]> <upon declaring war with a major Civilization>",
+                                        "Free [Longswordsman] appears <after discovering [Steel]> <before discovering [Gunpowder]> <upon declaring war with a major Civilization>",
+                                        "Free [Musketman] appears <after discovering [Gunpowder]> <before discovering [Rifling]> <upon declaring war with a major Civilization>",
+                                        "Free [Rifleman] appears <after discovering [Rifling]> <before discovering [Replaceable Parts]> <upon declaring war with a major Civilization>",
+                                        "Free [Great War Infantry] appears <after discovering [Replaceable Parts]> <before discovering [Plastics]> <upon declaring war with a major Civilization>",
+                                        "Free [Infantry] appears <after discovering [Plastics]> <before discovering [Mobile Tactics]> <upon declaring war with a major Civilization>",
+                                        "Free [Mechanized Infantry] appears <after discovering [Mobile Tactics]> <upon declaring war with a major Civilization>",
+                                        ],
+                "cities": ["Krohir","Thrurr","Miarguargg","Kur","Boznorr","Rixyr","Krigreh","Gohrua","Thraht","Szorr","Tagler",
+                        "Kyngrath","Aagurr"],
+                "civilopediaText": [
+                        {"text":"Gnoll Warband is a Gnoll civilization, demihuman race with hyena feature. They are ruthless warlike race that is led by Dreckfang, the strongest of Gnoll."},
+                        {"text":"Gnoll Warband unique ability let them gain instant [Gold] upon declaring war with another civilization. It is good for maintaining or recruitting more armies for the war effort."},
+                        {"text":"Their unique unit is a better Swordsman which can gain experience faster, so make sure to keep them alive and stack a lot of promotions."},
+        ]
+        },
+
+        //Khuldak of Troglodyte
+        {
+                "name": "Troglodyte",
+                "leaderName": "Khuldak",
+                "adjective": ["Trogs"],
+        //        "startBias": ["Mountain"],
+
+                "startIntroPart1": "Khuldak of the Trogs, the survival of the Trogs relies upon your shoulders. Your reign on these troubled times only proven your worth to defend Trogs' land against any invaders. Your valiant warriors follow behind your back, ready to defen the motherland at all cost.",
+                "startIntroPart2": "Khuldak, the Trogs is once against at the mercy of other unknown forces. Will you protect your people? Will you defend against those who seek your demise? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Your presence threatens our safety, you forced us to take the offensive!",
+                "attacked": "Come then, you will not made it through our strongholds!",
+                "defeated": "Curses! This is not the end! Mark my words.",
+                "introduction": "I am Khuldak, one who leads the Trogs. We won't interfere with your agenda as long as you don't interfere with ours.",
+
+                "neutralHello": "What do you want?",
+                "hateHello": "Move away!",
+                "tradeRequest": "Gah, we need something.",
+
+                "outerColor": [84,78,72],
+                "innerColor": [158,179,27],
+                "uniqueName": "We Withstand All",
+                "uniqueText": "+100% Yield in tiles with [Fort] unadjacent to another Fort\n+200% Yield in tiles with [Citadel]",
+                "uniques": ["[+100]% Yield from every [Land] <in [Fort] tiles> <with [0] to [0] neighboring [Fort] tiles>","[+200]% Yield from every [Land] <in [Citadel] tiles>"],
+                "cities": ["Skrart","H'plezdill","Grez'takt","Min'tist","S'sluztin","Zonkikk","Kiz'lelk","Thulall","Plir'zist","Zaz'led","Mis'zess",
+                        "Kroz'dall","Graz'let"],
+                "civilopediaText": [
+                        {"text":"Troglodyte is cave-dwelling lizardmen civilization. They are isolationist civilization that rarely go out from their cave. They will hold their ground against any attacker."},
+                        {"text":"Troglodyte is a good defensive civilization, they can gain yield from building Fort and Citadel, making them still useful economic-wise while being able to provide extra defensive Strength for units."},
+                        {"text":"Cavernhold provides extra [Production] based on adjacent Mountain tiles, so settling next to mountain is advisable to maximize its effect."},
+                        {"text":"Their unique unit is strong against Melee unit and can accumulate great general points faster at the cost of being expensive."},
+        ]
+        },
+
+        /*
+        //Hyghmane of Leonin Kingdom
+        {
+                "name": "Leonin Kingdom",
+                "leaderName": "Hyghmane",
+                "adjective": ["Leonins"],
+        //        "preferredVictoryType": "Domination",
+
+                "startIntroPart1": ".",
+                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": ".",
+                "attacked": "!",
+                "defeated": "!",
+                "introduction": "!",
+
+                "neutralHello": "What?",
+                "hateHello": "Go away from our land!",
+                "tradeRequest": "This trade offer will interest you.",
+
+                "outerColor": [  7,  0, 54],
+                "innerColor": [228,134,228],
+                "uniqueName": "Honor of the Pride",
+                "uniques": ["Empire enters golden age <upon declaring friendship>"],
+                "cities": ["Tyrtagus","Gior","Tegez","Bathes","Irin","Rixyr","Xeoz","Axamioz","Dathakir","Prios","Ocale",
+                        "Driole","Koite"],
+                "civilopediaText": [
+                        {"text":"Leonin Kingdom is a Leonin civilization, lion demihuman race. They are wise and peaceful race, they are diplomatic virtuoso."},
+                        {"text":"Leonin Kingdom is a civilization that should aim for friendship with another civilization to maximize their unique ability."},
+                        {"text":"Their unique unit is a slower but stronger Knight replacement. During Golden Age, they can mitigate the bonus damage received from anti-cavalry units."},
+        ]
+        },
+        */
+
+        //Legion of Spirits Pact
+        {
+                "name": "Spirit Pact",
+                "leaderName": "Legion",
+                "adjective": ["Spirits"],
+                "preferredVictoryType": "Domination",
+
+                "startIntroPart1": "Welcome to this world demon called Legion. You are send to controll lesser races and let them die for your thriving domination. Your hellish origin and obsession for seizing possession over others will give you the power needed to dominate.",
+                "startIntroPart2": "Oh greatest of hostile spirits and feared character among demons, can you assert your dominance? Can you make your evil plans become reality? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "My spirits will haunt you!",
+                "attacked": "Seems like you would greatfully accept foreign control",
+                "defeated": "You successfully dispelled my Legion of spirits. I will now take a rest in hell",
+                "introduction": "Hello new face. My name is Legion, because we are many",
+
+                "neutralHello": "I accept your presence, so what do you like to discuss?",
+                "hateHello": "Get out or get possessed. Your choice",
+                "tradeRequest": "My controlled people bring you this offer",
+
+                "outerColor": [198,140,60],
+                "innerColor": [108,54,35],
+                "uniqueName": "Possesion Seizing",
+                "uniqueText": "Can capture killed enemy units during a golden age, which is started automatically when reaching medieval era\nGain 10% of damage dont to Land units as [Faith]\nUnits obtained in other ways than constructing them gain a Strength bonus when attacking, destroy tile improvements on attack and ignores damage when determining unit strength, but suffer -15% Penalty when defending and -10 Health when healing",
+                "uniques": [
+                        "Empire enters golden age <upon entering the [Medieval era]>",
+                        "[Military] units gain the [Spirit II] promotion",
+                        "Earn [10]% of the damage done to [Land] units as [Faith]",
+                        "May buy [Spirify] buildings for [100] [Faith] [in annexed cities]",
+                        "All newly-trained [All] units [in all cities] receive the [Spirit] promotion",
+                        "[All] units gain the [Spirit] promotion <before [1] turns>",
+                        "[+30]% Strength <when attacking> <for units without [Spirit]>",
+                        "[-15]% Strength <when defending> <for units without [Spirit]>",
+                        "Damage is ignored when determining unit Strength <for units without [Spirit]>",
+                        "[-10] HP when healing <for units without [Spirit]>"
+                ],
+                "cities": ["Trensotio", "Spirrsoth", "Contorl", "Demonport", "Ouverthrou","Agregvatro","Ispretify","Homansleive","Enafmenas","Eimdanfur"],
+                "civilopediaText": [
+                        {"text":"Spirit pact is a faction consisting of other folks from other races, that are possessed by evil spirits. This explains their dominant, aggressive and furious nature."},
+                        {"text":"Spirit pact is a good domination civilization, only suited for all out war over anything else. Your ability allows for capturing enemy units during golden Ages, that also gain extra attacking strength."},
+                        {"text":"You should aim for a good happiness production and a constant war to earn you Golden Age points and Great Generals to start them. Your faith bonus helps also helps you to buy their unique Courthouse replacement, further reducing unhappiness"},
+                        {"text":"Their unique unit has a promotion allow for good early war benefits, gaining a bit of extra strength when attacking and healing a bit of health for kills. They keep their ability throughout the entire game"},
+        ]
+        },
+
+        //Hippolyta of The Amazons
+        {
+                "name": "The Amazons",
+                "leaderName": "Hippolyta",
+                "adjective": ["Amazonian"],
+                "startBias": ["Jungle"],
+
+                "startIntroPart1": "Hippolyta, the fierce and powerful Queen of the Amazons, a tribe of warrior women. Known for your exceptional strength and combat skills, as well as your leadership and wisdom, you lead your people with great vigor. The most revered among the Amazons, you dedicate yourself for the well being of the Amazons.",
+                "startIntroPart2": "O, great Hippolyta, your people seeks you once more. Will you battle through any obstacle thrown at your people? Will you stay strong and lead your people to glory? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "Finally a worthy opponent! Our battle will be remembered through the ages!",
+                "attacked": "A challenge worthy of my power!",
+                "defeated": "You've done well warrior, please lead my people with mercy.",
+                "introduction": "I am Hippolyta, Queen of the Amazons. Born and raised on the mystical island of Themyscira, I am the leader of the fierce and powerful Amazon tribe.",
+
+                "neutralHello": "Ah, fellow warrior, what can I help?",
+                "hateHello": "Go away from our land!",
+                "tradeRequest": "We are interested in a trade agreement with your people.",
+
+                "outerColor": [194,160,119],
+                "innerColor": [162,9,50],
+                "uniqueName": "Fierce and Courageous ",
+                "uniqueText": "Military land units gain +7% Strength for each promotion they gained from the promotions tree\nGain free [Palisade] for cities settled within 2 tiles of a Jungle",
+                "uniques": ["Gain a free [Palisade] [in all cities] <within [2] tiles of a [Jungle]>",
+                                        //Melee, Mounted, Armor
+                                        "[+7]% Strength <for units with [Shock I]>", "[+7]% Strength <for units with [Shock II]>", "[+7]% Strength <for units with [Shock III]>",
+                                        "[+7]% Strength <for units with [Drill I]>", "[+7]% Strength <for units with [Drill II]>", "[+7]% Strength <for units with [Drill III]>",
+                                        "[+7]% Strength <for units with [Charge]>", "[+7]% Strength <for units with [Besiege]>", "[+7]% Strength <for units with [Blitz]>",
+                                        "[+7]% Strength <for units with [Formation I]>", "[+7]% Strength <for units with [Formation II]>",
+                                        "[+7]% Strength <for units with [Woodsman]>", "[+7]% Strength <for units with [Amphibious]>", "[+7]% Strength <for units with [Medic]>", "[+7]% Strength <for units with [Medic II]>",
+                                        //Ranged, Siege
+                                        "[+7]% Strength <for units with [Accuracy I]>", "[+7]% Strength <for units with [Accuracy II]>", "[+7]% Strength <for units with [Accuracy III]>",
+                                        "[+7]% Strength <for units with [Barrage I]>", "[+7]% Strength <for units with [Barrage II]>", "[+7]% Strength <for units with [Barrage III]>",
+                                        "[+7]% Strength <for units with [Volley]>", "[+7]% Strength <for units with [Extended Range]>", "[+7]% Strength <for units with [Indirect Fire]>",
+                                        //Scout
+                                        "[+7]% Strength <for units with [Scouting I]>", "[+7]% Strength <for units with [Scouting II]>", "[+7]% Strength <for units with [Scouting III]>",
+                                        "[+7]% Strength <for units with [Survivalism I]>", "[+7]% Strength <for units with [Survivalism II]>", "[+7]% Strength <for units with [Survivalism III]>",
+                                        //Helicopter
+                                        "[+7]% Strength <for units with [Mobility I]>", "[+7]% Strength <for units with [Mobility II]>", "[+7]% Strength <for units with [Anti-Armor I]>", "[+7]% Strength <for units with [Anti-Armor II]>",
+                                        //Mixed but for Land only
+                                        "[+7]% Strength <for [Land] units> <for units with [Cover I]>", "[+7]% Strength <for [Land] units> <for units with [Cover II]>", 
+                                        "[+7]% Strength <for [Land] units> <for units with [March]>", "[+7]% Strength <for [Land] units> <for units with [Mobility]>",
+                                        "[+7]% Strength <for [Land] units> <for units with [Sentry]>", "[+7]% Strength <for [Land] units> <for units with [Logistics]>",
+                                        "[+7]% Strength <for [Land] units> <for units with [Ambush I]>", "[+7]% Strength <for [Land] units> <for units with [Ambush II]>",
+                                        ],
+                "cities": ["Antiopea","Melanippe","Hippolyta","Thermodosa","Orithyia","Andromacheia","Lysippeia","Euryaleia","Cyreneia","Myrineia","Arktos",
+                        "Xandar","Mynaria"],
+                "civilopediaText": [
+                        {"text":"The Amazons is a matriarch warrior civilization. They are a group of female warriors and fighters, who surpassed all men in physical agility and strength, in archery, riding skills, and the arts of combat."},
+                        {"text":"The Amazons is a good domination civilization thanks to their unique ability providing extra strength for each promotion gained. Not letting a veteran unit dies is a top priority."},
+                        {"text":"Their unique unit is a cheaper and stronger replacement for Swordsman. Make sure to settle next to Jungle as much as possible to gain the free Palisade."}
+        ]
+        },
+
+        //Vieya of Undines
+        {
+                "name": "Undines",
+                "leaderName": "Vieya",
+                "adjective": ["Undines"],
+                "startBias": ["Flood plains"],
+
+                "startIntroPart1": "Vieya, the leader of Undines, you are a respected figure among your people. You guide them through difficult times, plowing through the storm that hinders your people. O, Vieya, your wisdom unites all of Undines, separated from one lake to another, from one river to another, you unite them all under one banner.",
+                "startIntroPart2": "Vieya, your people still in need of a wise leader such as yourself. Will you lead them once more? Will you survive and defend the Undines in these troubling times? Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "You will vanish! We will cast you into oblivion!",
+                "attacked": "You will not live to see the end of this!",
+                "defeated": "Please, be merciful to my people.",
+                "introduction": "Ashvalani, stranger. I am Vieya, the leader of the Undines, we wish to build a mutual relationship with your people.",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "Don't disturb us!",
+                "tradeRequest": "We are in need for your assistance.",
+
+                "outerColor": [121,201,193],
+                "innerColor": [39,112,31],
+                "uniqueName": "The Mana Flows",
+                "uniqueText": "Free [Worker] appears upon settling cities on River\nMay dowse for Manaline, the Manaline can provide yields without assigned population and gain +1 [Culture] every 2 eras\nMay dowse one more Manaline in cities with at least 10 populations",
+                "uniques": ["Free [Worker] appears <upon founding a city> <in [River] tiles>"],
+                "cities": ["Aquiline","Nereida","Lirien","Melusine","Ondine","Naiadine","Calypso","Coralene","Selkie","Tritonessa","Merrow",
+                        "Syrena","Mariana"],
+                "civilopediaText": [
+                        {"text":"The Undines are water nymphs, humanoid water-elementals. They are the guardian of rivers."},
+                        {"text":"Undines is good at tall and cultural playstyle. Their unique ability is a great early game boost with free Worker. And the Manaline from unique abilities also provide free yield to the city."},
+                        {"text":"Manaline can provide any resource they are built on, making them useful if you need the happiness from the luxury fast. Manaline also gains +1 [Culture] every 2 eras, which make them good at cultural win. Manaline is permanent improvement, making Undines' cities particularly desireable for conquer."},
+                        {"text":"Their unique unit is a stronger Composite Bowman, but be wary, it has Water Creature promotion which makes them weaker in tiles without access to water."},
+        ]
+        },
+
+        //Carolina of Enkantos
+        {
+                "name": "Enkantos",
+                "leaderName": "Carolina",
+                "adjective": ["Enchanted Ones"],
+                "startBias": ["Coast"],
+
+                "startIntroPart1": "",
+                "startIntroPart2": "Can you build a civilization that will stand the test of time?",
+
+                "declaringWar": "I see your nation has grown a little bit too far. Time to put you in your place!",
+                "attacked": "Curses!",
+                "defeated": "This can't be...",
+                "introduction": "Greetings stranger, I am the Enchanted Lady herself, Carolina. You may speak with me.",
+
+                "neutralHello": "Greetings.",
+                "hateHello": "Don't disturb us!",
+                "tradeRequest": "We request thy accept this aggreement.",
+
+                "outerColor": [58, 101, 143],
+                "innerColor": [197, 230, 255]
+                "uniqueName": "The Enchanted Ones",
+                "uniqueText": "Gain [Science] upon building [Happiness] building\n+1 population in a random city upon entering new era",
+                "uniques": ["Gain [20] [Science] <upon constructing [Circus]>",
+                                        "Gain [25] [Science] <upon constructing [Colosseum]>",
+                                        "Gain [75] [Science] <upon constructing [Dreamweaver Theatre]>",
+                                        "Gain [125] [Science] <upon constructing [Stadium]>",
+
+                                        //Extra pop stuffs
+                                        "[+1] population in a random city <upon entering the [Classical era]>",
+                                        "[+1] population in a random city <upon entering the [Medieval era]>",
+                                        "[+1] population in a random city <upon entering the [Renaissance era]>",
+                                        "[+1] population in a random city <upon entering the [Industrial era]>",
+                                        "[+1] population in a random city <upon entering the [Modern era]>",
+                                        "[+1] population in a random city <upon entering the [Atomic era]>",
+                                        "[+1] population in a random city <upon entering the [Information era]>",
+                                        "[+1] population in a random city <upon entering the [Future era]>",
+                                        ],
+                "cities": ["Biringan","Catbalogan","Tarangnan","Motiong","Pinabacdao","Jiabong","Basey","Marabut","Matuguinao","Villareal","Daram",
+                        "Laoang","Pagsanghan"],
+                "civilopediaText": [
+                        {"text":"The Enkantos are ethereal beings from the unseen city of Biringan. The city itself prospers with advancement beyond that of human realm. Plenty of amenities are provided for its denizens. A utopia shrouded in mystery."},
+                        {"text":"The Enkantos, or the Enchanted Ones, mostly resemble humans but with enigmatic eyes, beautiful and youthful appearance, and mysterious aura that can leave ordinary human in trance upon seeing them. Some of them abduct from beyond their realm. Is it for pleasure? Mere curiosity? Or maybe for knowledge exchange? Who knows, they are as enigmatic as the city itself."},
+                        {"text":"This civilization thrives from constructing Happiness building."},
+                        {"text":"Their unique unit has a low chance to duplicate themselves when constructed, albeit at a lower strength, their mastery on the art of illusions makes them harder to get damaged."},
+        ]
+        },
+
+]
