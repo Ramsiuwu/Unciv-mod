@@ -108,3 +108,185 @@
 			"Q'Dhihien"]
 	},
 	{
+  "name": "Griegos",
+		"leaderName": "",
+		"adjective": ["Griego"],
+		"startBias": ["Grasslands"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "¡Prepárense para la guerra!",
+		"startIntroPart2": "¡Los orcos no mostramos piedad!",
+		
+		"declaringWar": "¡Inclínate o serás destruido!",
+		"attacked": "¡Prepárate para ser aniquilado!",
+		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "Mantente fiera de nuestro camino",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
+		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
+			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien"]
+	},
+	{
+  "name": "Humanos del desierto",
+		"leaderName": "Carlomagno",
+		"adjective": ["Humano"],
+		"startBias": ["Grasslands"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "¡Prepárense para la guerra!",
+		"startIntroPart2": "¡Los orcos no mostramos piedad!",
+		
+		"declaringWar": "¡Inclínate o serás destruido!",
+		"attacked": "¡Prepárate para ser aniquilado!",
+		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "Mantente fiera de nuestro camino",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
+		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
+			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien"]
+	},
+	{
+ "name": "Vikingos",
+		"leaderName": "Carlomagno",
+		"adjective": ["Humano"],
+		"startBias": ["Grasslands"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "¡Prepárense para la guerra!",
+		"startIntroPart2": "¡Los orcos no mostramos piedad!",
+		
+		"declaringWar": "¡Inclínate o serás destruido!",
+		"attacked": "¡Prepárate para ser aniquilado!",
+		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "Mantente fiera de nuestro camino",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
+		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
+			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien"]
+	},
+	{
+ "name": "Asiáticos",
+		"leaderName": "Carlomagno",
+		"adjective": ["Humano"],
+		"startBias": ["Grasslands"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "¡Prepárense para la guerra!",
+		"startIntroPart2": "¡Los orcos no mostramos piedad!",
+		
+		"declaringWar": "¡Inclínate o serás destruido!",
+		"attacked": "¡Prepárate para ser aniquilado!",
+		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "Mantente fiera de nuestro camino",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
+		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
+			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien"]
+	},
+	{
+ "name": "Aztecas",
+		"leaderName": "Moctezuma",
+		"adjective": ["Humano"],
+		"startBias": ["Grasslands"],
+		"preferredVictoryType": "Domination",
+		
+		"startIntroPart1": "¡Prepárense para la guerra!",
+		"startIntroPart2": "¡Los orcos no mostramos piedad!",
+		
+		"declaringWar": "¡Inclínate o serás destruido!",
+		"attacked": "¡Prepárate para ser aniquilado!",
+		"defeated": "Esto no es el final... ¡volveré y mi venganza será terrible!",
+		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		
+		"neutralHello": "Mantente fiera de nuestro camino",
+		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
+		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
+		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+
+		"hateHello": "What do you want now?",
+		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
+		"hateNo": ["Preferimos la guerra","El comercio es para los cobardes","No comerciamos, tomamos lo que queremos"],
+		"hateYes": ["Trato hecho, por ahora","Comerciaremos, pero no te olvides quién tiene el poder aquí","Esta vez aceptaremos"],
+		
+		"afterPeace": "Very well, all that fighting was getting boring anyway.",
+		"tradeRequest": "We bestow you the honor of this trade offer.",
+
+		"outerColor": [16,16,16],
+		"innerColor": [255,200,200],
+		"unique": "MANIFEST_DESTINY",
+		"cities": ["Castadorn","Lisboa","Praga","Toledo","Londres","París","Florencia","Venecia","Aquisgrán",
+			"Constantinopla","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
+			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
+			"Q'Dhihien"]
+	},
+	{
+
+
