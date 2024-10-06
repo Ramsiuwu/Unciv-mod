@@ -1,51 +1,427 @@
 [
-	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
-]
-[
-	{
-		"name": "Ballestero",
-		"unitType": "Ranged",
-		"uniqueTo": "Francia",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
-]
-[
-	{
-		"name": "Mago",
-		"unitType": "Ranged",
-		"uniqueTo": "Humanos",
-		"replaces": "Archer",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	}
-]
+        //Dwarven Kingdom
+        {
+                "name": "Orichalcum Golem",
+                "uniqueTo": "Dwarven Kingdom",
+                "replaces": "Longswordsman",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 22,
+                "cost": 120,
+                "requiredResource": "Iron",
+                "requiredTech": "Steel",
+                "upgradesTo": "Musketman",
+                "obsoleteTech": "Gunpowder",
+                "promotions": ["Exposed Core"],
+                "uniques": ["Construct"],
+                "hurryCostModifier": 20,
+                "attackSound": "nonmetalhit",
+                "civilopediaText": [
+                        {"text": "A construct made of Orichalcum. Its sturdiness exceeds that of a Diamond. This makes the golem a formidable foe in the battlefield."},
+        ]
+        },
+
+        //Drow Village
+        {
+                "name": "Bladedancer",
+                "uniqueTo": "Drow Village",
+                "replaces": "Swordsman",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 16,
+                "cost": 75,
+                "requiredTech": "Iron Working",
+                "upgradesTo": "Longswordsman",
+                "obsoleteTech": "Steel",
+                "promotions": ["Elusive"],
+                "requiredResource": "Iron",
+                "hurryCostModifier": 20,
+                "attackSound": "metalhit",
+                "civilopediaText": [
+                        {"text": "Notorious for its agility and nimble movements, Bladedancer is an elusive target to hit. They move like a wind."},
+        ]
+        },
+
+        //Orc Horde
+        {
+                "name": "Orc Brute",
+                "uniqueTo": "Orc Horde",
+                "replaces": "Swordsman",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 15,
+                "cost": 90,
+                "requiredTech": "Iron Working",
+                "requiredResource": "Iron",
+                "upgradesTo": "Longswordsman",
+                "obsoleteTech": "Steel",
+        //        "uniques": ["Can build [Improved Barricade] improvements on tiles", "Can build [Fort] improvements on tiles"],
+                "hurryCostModifier": 20,
+                "promotions": ["[Orc Brute] ability", "Crafty"],
+                "attackSound": "metalhit",
+                "civilopediaText": [
+                        {"text": "Crude yet effective, a menace to those who dare to oppose. Swings hammer like no other. Prepare to be brutalized."},
+        ]
+        },
+
+        //Uldra
+        {
+                "name": "Frost Giant",
+                "uniqueTo": "Uldra",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 13,
+                "cost": 56,
+                "requiredTech": "Trapping",
+                "upgradesTo": "Longswordsman",
+                "obsoleteTech": "Steel",
+                "promotions": ["Snowman"],
+                "hurryCostModifier": 20,
+                "attackSound": "nonmetalhit",
+                "civilopediaText": [
+                        {"text": "A giant tamed and trained to be a tool of warfare. The Uldras capture and trains these natural predator easily."},
+        ]
+        },
+
+        //Merfolk Council
+        {
+                "name": "Naga",
+                "uniqueTo": "Merfolk Council",
+                "replaces": "Galleass",
+                "unitType": "Ranged Water",
+                "movement": 3,
+                "strength": 16,
+                "rangedStrength": 16,
+                "range": 2,
+                "cost": 90,
+                "requiredTech": "Compass",
+                "obsoleteTech": "Navigation",
+                "upgradesTo": "Frigate",
+                "attackSound": "arrow",
+                "civilopediaText": [
+                        {"text": "A giant creature that lurks the deep sea. Developed a mutual symbiotic relationship with the Merfolks, these monster of the sea will help them defend its territory. Or conquer others."},
+        ]
+        },
+
+        //Beastmen Empire
+        {
+                "name": "Wardrummer",
+                "unitType": "Civilian",
+                "uniqueTo": "Beastmen Empire",
+                "replaces": "Great General",
+                "uniques": ["Empire enters a [8]-turn Golden Age <by consuming this unit>", "[+15]% Strength bonus for [Military] units within [2] tiles", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                        "Great Person - [War]", "Unbuildable", "Uncapturable"],
+                "promotions": ["Intimidation"],
+                "movement": 4,
+                "civilopediaText": [
+                        {"text": "The sound from a Wardrummer will intimidate its foe, while improving the morale of the Beastmen. The sounds of destruction and untold battlefield gore."},
+        ]
+        },
+        {
+                "name": "Wyvern Rider",
+                "uniqueTo": "Beastmen Empire",
+                "replaces": "Horseman",
+                "unitType": "Mounted",
+                "movement": 4,
+                "strength": 13,
+                "rangedStrength": 13,
+                "range": 1,
+                "cost": 75,
+                "requiredTech": "Horseback Riding",
+                "requiredResource": "Horses",
+                "upgradesTo": "Knight",
+                "obsoleteTech": "Chivalry",
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+                "hurryCostModifier": 20,
+                "attackSound": "arrow",
+                "civilopediaText": [
+                        {"text": "Beastmen Empire's aerial force consisted of Wyvern Rider. A dragon-like creature tamed and ridden, proved effective for war."},
+        ]
+        },
+
+        //Elven Kingdom
+        {
+                "name": "Elven Ranger",
+                "uniqueTo": "Elven Kingdom",
+                "replaces": "Composite Bowman",
+                "unitType": "Archery",
+                "movement": 2,
+                "strength": 10,
+                "rangedStrength": 13,
+                "cost": 80,
+                "promotions": ["Woodsman"],
+                "requiredTech": "Construction",
+                "obsoleteTech": "Machinery",
+                "upgradesTo": "Crossbowman",
+                "attackSound": "arrow",
+                "civilopediaText": [
+                        {"text": "Elves are famous for their archery. Especially the Ranger. Strong at both swordmanship and archery, their skills are invaluable at the battlefield."},
+        ]
+        },
+
+        //Children of Deep Dweller
+        {
+                "name": "Deep One",
+                "uniqueTo": "Children of Deep Dweller",
+                "replaces": "Warrior",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 11,
+                "cost": 48,
+                "obsoleteTech": "Metal Casting",
+                "upgradesTo": "Swordsman",
+                "uniques" : ["[10]% Strength <when fighting in [Coastal] tiles>", "[10]% Strength <when fighting in [Fresh Water] tiles>"],
+                "attackSound": "nonmetalhit",
+                "civilopediaText": [
+                        {"text": "Horror creature from the abysmal sea. Surfaced from the prayer and calling of the Cultist."},
+        ]
+        },
+
+        //Dragonborn Union
+        {
+                "name": "Dragon Knight",
+                "uniqueTo": "Dragonborn Union",
+                "replaces": "Longswordsman",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 24,
+                "cost": 120,
+                "requiredTech": "Steel",
+                "upgradesTo": "Rifleman",
+        //        "uniques": ["Can pass through impassable tiles", "Ignores terrain cost"],
+        //        "promotions": ["Charge"],
+                "obsoleteTech": "Rifling",
+                "requiredResource": "Iron",
+                "attackSound": "metalhit",
+                "civilopediaText": [
+                        {"text": "Dragonoid which has been going through rigorous training will declared a knight."},
+        ]
+        },
+        {
+                "name": "Gryphon",
+                "uniqueTo": "Dragonborn Union",
+                "replaces": "Horseman",
+                "unitType": "Mounted",
+                "movement": 3,
+                "strength": 15,
+                "cost": 75,
+                "requiredTech": "Horseback Riding",
+                "requiredResource": "Horses",
+                "upgradesTo": "Knight",
+                "obsoleteTech": "Chivalry",
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Flying", "Can pass through impassable tiles", "Can see over obstacles"],
+        //        "promotions": [""],
+                "hurryCostModifier": 20,
+                "attackSound": "horse",
+                "civilopediaText": [
+                        {"text": "A hybrid monster of Eagle and Lion, tamed and trained to be a valuable assets on the battlefield."},
+        ]
+        },
+
+        //Vigilo Order
+        {
+                "name": "Potionist",
+                "unitType": "Civilian",
+                "uniqueTo": "Vigilo Order",
+                "movement": 2,
+                "promotions": ["Healer I", "Healer II"],
+                "requiredTech": "Guilds",
+                "cost": 50,
+                "civilopediaText": [
+                        {"text": "Master of alchemy, using their knowledge to cure the wounded in battlefield, a Potionist."},
+        ]
+        },
+
+        //Argonautian States
+        {
+                "name": "Peltast",
+                "replaces": "Spearman",
+                "uniqueTo": "Argonautian States",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 11,
+                "rangedStrength": 11,
+                "range": 1,
+                "cost": 56,
+                "requiredTech": "Bronze Working",
+                "obsoleteTech": "Civil Service",
+                "upgradesTo": "Pikeman",
+                "uniques": ["[+50]% Strength <vs [Mounted] units>"],
+                "promotions": ["Agoge"],
+                "attackSound": "metalhit",
+                "civilopediaText": [
+                        {"text": "Trained since children, with the States' Agoge policy, Peltast is the main infantry for Argonautian States."},
+        ]
+        },
+        {
+                "name": "Sarissa Hippeus",
+                "unitType": "Mounted",
+                "replaces": "Horseman",
+                "uniqueTo": "Argonautian States",
+                "movement": 4,
+                "strength": 14,
+                "cost": 75,
+                "requiredTech": "Horseback Riding",
+                "requiredResource": "Horses",
+                "upgradesTo": "Knight",
+                "obsoleteTech": "Chivalry",
+                "uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
+                "promotions": ["Agoge", "Impetus"],
+                "hurryCostModifier": 20,
+                "attackSound": "horse",
+                "civilopediaText": [
+                        {"text": "Trained since Children with the State's Agoge policy, Sarissa Hippeus charge the enemy with their horse and spear with great courage."},
+        ]
+        },
+                //Heroic Generals
+                {
+                        "name": "Achilles",
+                        "uniqueTo": "Argonautian States",
+                        "unitType": "Sword",
+                        "movement": 2,
+                        "strength": 17,
+                        "upgradesTo": "Longswordsman",
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Gain [250] [Gold] <by consuming this unit>"],
+                        "promotions": ["Agoge", "Heroic General",
+                                           "Bloodbath"],
+                        "attackSound": "metalhit"
+                },
+                {
+                        "name": "Orion",
+                        "uniqueTo": "Argonautian States",
+                        "unitType": "Archery",
+                        "movement": 2,
+                        "strength": 18,
+                        "rangedStrength": 21,
+                        "range": 2,
+                        "upgradesTo": "Gatling Gun",
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Gain [75] [Culture] <by consuming this unit>", "Can instantly construct a [Orion's Monument] improvement <by consuming this unit>", "Can move after attacking"],
+                        "promotions": ["Agoge", "Heroic General",
+                                           "Accuracy I", "Barrage I"],
+                        "attackSound": "arrow"
+                },
+                {
+                        "name": "Agathinus",
+                        "unitType": "Civilian",
+                        "uniqueTo": "Argonautian States",
+                        "movement": 2,
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Can instantly construct a [Manufactory] improvement <by consuming this unit>", "Can instantly construct a [Academy] improvement <by consuming this unit>", "Uncapturable"],
+                        "promotions": ["Heroic General", "Healer I", "Healer II", "Medic"],
+                },
+                {
+                        "name": "Daedalus",
+                        "uniqueTo": "Argonautian States",
+                        "unitType": "Mounted",
+                        "movement": 4,
+                        "strength": 40,
+                        "upgradesTo": "Landship",
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Can speed up construction of a building", "Can instantly construct a [Basilikoi Paides] improvement <by consuming this unit>"],
+                        "promotions": ["Agoge", "Heroic General",
+                                           "Warbanner"],
+                        "attackSound": "metalhit"
+                },
+                {
+                        "name": "Theopompus",
+                        "uniqueTo": "Argonautian States",
+                        "unitType": "Gunpowder",
+                        "movement": 2,
+                        "strength": 60,
+                        "upgradesTo": "Infantry",
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Empire enters a [8]-turn Golden Age <by consuming this unit>", "Can instantly construct a [Landmark] improvement <by consuming this unit>"],
+                        "promotions": ["Agoge", "Heroic General",
+                                           "Blitz", "Ignores ZOC"],
+                        "attackSound": "metalhit"
+                },
+                {
+                        "name": "Castor",
+                        "unitType": "Civilian",
+                        "uniqueTo": "Argonautian States",
+                        "movement": 2,
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Free Technology <by consuming this unit>", "Uncapturable"]
+                        "promotions": ["Heroic General"],
+                },
+                {
+                        "name": "Pollux",
+                        "unitType": "Civilian",
+                        "uniqueTo": "Argonautian States",
+                        "movement": 2,
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Free Social Policy <by consuming this unit>", "Uncapturable"]
+                        "promotions": ["Heroic General"],
+                },
+                {
+                        "name": "Isagoras",
+                        "uniqueTo": "Argonautian States",
+                        "unitType": "Ranged Gunpowder",
+                        "movement": 2,
+                        "strength": 90,
+                        "rangedStrength": 90,
+                        "range": 2,
+                        "uniques": ["Cannot be purchased", "Will not be displayed in Civilopedia", "Unbuildable", "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+                                                "Free Great Person <by consuming this unit>"],
+                        "promotions": ["Agoge", "Heroic General",
+                                           "Logistics"],
+                        "attackSound": "metalhit"
+                },
+
+        //Pyre Clan
+        {
+                "name": "Pitlord",
+                "replaces": "Knight",
+                "uniqueTo": "Pyre Clan",
+                "unitType": "Mounted",
+                "movement": 4,
+                "strength": 22,
+                "cost": 120,
+                "requiredTech": "Chivalry",
+                "obsoleteTech": "Military Science",
+                "upgradesTo": "Cavalry",
+                "requiredResource": "Horses",
+                "promotions": ["Decaying Aura"],
+                "uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+                "attackSound": "horse"
+                "civilopediaText": [
+                        {"text": "A creature from hell, the guardian of hell, a creature of four-legged demon with huge body. A menace to society."},
+        ]
+        },
+
+        //High Elf Concordat
+        {
+                "name": "Zealot",
+                "replaces": "Swordsman",
+                "uniqueTo": "High Elf Concordat",
+                "unitType": "Sword",
+                "movement": 2,
+                "strength": 17,
+                "cost": 75,
+                "requiredTech": "Iron Working",
+                "upgradesTo": "Longswordsman",
+                "obsoleteTech": "Steel",
+                "requiredResource": "Iron",
+                "promotions": ["Zealotry"],
+                "hurryCostModifier": 20,
+                "attackSound": "metalhit"
+                "civilopediaText": [
+                        {"text": "A devout follower of the High Elven doctrine, a Zealot will charge through the battlefield with great vigor."},
+        ]
+        },
+
+        //Necrontia
+        {
+                "name": "Lich",
+                "unitType": "Archery",
+                "replaces": "Crossbowman",
+                "uniqueTo": "Necrontia",
+                "movement": 2,
+                "strength": 10,
+                "rangedStrength": 18,
+                "range": 2,
+                "cost": 120,
+                "requiredTech": "Theology",
+                "upgradesTo": "Gatling Gun
