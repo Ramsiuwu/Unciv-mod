@@ -233,8 +233,8 @@
                 "startBias": ["Forest"],
                 "preferredVictoryType": "Cultural",
 
-                "startIntroPart1": "Aia Sylvanna! The Queen of the Elven, protector of the sacred lands. ",
-                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "Reina Sylvanna, líder de los Elfos del Bosque. Tu gracia y sabiduría te han elevado al trono de tu pueblo. Los Elfos del Bosque te veneran como guardiana de la naturaleza, y tu reinado ha traído prosperidad y equilibrio a los vastos bosques que proteges. Con una profunda afinidad mágica, has guiado a tu gente para que viva en armonía con el entorno, cultivando la belleza y el conocimiento ancestral.",
+                "startIntroPart2": "Reina Sylvanna, tu pueblo te necesita en tiempos de incertidumbre. ¿Lograrás proteger los bosques de aquellos que buscan destruirlos? ¿Unirás a las tribus elfas para enfrentar la oscuridad que se avecina? ¿Podrás construir una civilización que florezca y resista la prueba del tiempo, preservando la magia y la vida que tanto atesoras?",
 
                 "declaringWar": "Ohtatimeár! A war is brewing, and it's your time to fall.",
                 "attacked": "Damn you, I will not fall.",
@@ -263,14 +263,14 @@
 
         //Orz'athoth of Children of Deep Dweller
         {
-                "name": "Children of Deep Dweller",
+                "name": "Hijos de las profundidades",
                 "leaderName": "Orz'athoth",
-                "adjective": ["Cultist"],
+                "adjective": ["Cultista"],
                 "startBias": ["Coast"],
                 "preferredVictoryType": "Domination",
 
-                "startIntroPart1": ".",
-                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "Antiguo Orz'athoth, líder de los cultistas de las profundidades. Tu presencia inquietante y tu sabiduría prohibida te han elevado a la cima de aquellos que buscan la verdad oculta en las profundidades del océano. Los cultistas te adoran y veneran como el mensajero de las entidades cósmicas, guiándolos en su búsqueda de salvación a través del misterio y el horror. Bajo tu liderazgo, han aprendido a abrazar lo desconocido, creando rituales oscuros que buscan abrir portales hacia dimensiones inimaginables.",
+                "startIntroPart2": "Antiguo Orz'athoth, tus seguidores claman por tu guía en la penumbra. ¿Los llevarás hacia el conocimiento que trasciende la locura? ¿Desvelarás los secretos de las profundidades y enfrentarás los horrores que acechan en la oscuridad? ¿Podrás construir un culto que perdure a través de las eras, buscando la salvación en las tinieblas del océano?",
 
                 "declaringWar": "Come child, come to our cause, the Old One seeks you.",
                 "attacked": "Oh dear child, you know nothing, you see nothing, you are nothing.",
@@ -297,13 +297,13 @@
 
         //Baradul of Dragonborn Union
         {
-                "name": "Dragonborn Union",
+                "name": "Unión de los Dracónicos",
                 "leaderName": "Baradul",
-                "adjective": ["Dragonborn"],
+                "adjective": ["Dracónico"],
                 "startBias": ["Mountain"],
 
-                "startIntroPart1": ".",
-                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "Rey Baradul, líder de los Dracónicos. Tu majestuosa presencia y poder indomable te han elevado al trono de tu pueblo. Los Dracónicos te veneran como el guardián de los cielos y las tierras, uniendo la fuerza de los dragones en un solo reino. Tu reinado ha traído prosperidad a las tierras que custodian, y tus hazañas son legendarias entre las criaturas aladas.",
+                "startIntroPart2": "Rey Baradul, tu gente te sigue con lealtad inquebrantable. ¿Consolidarás tu dominio sobre los cielos y enfrentarás a aquellos que amenazan tu reino? ¿Desatarás el poder ancestral de los dragones para proteger a tu pueblo? ¿Podrás construir un imperio que resista la prueba del tiempo, dejando un legado de grandeza y majestuosidad que se cuente entre las leyendas?",
 
                 "declaringWar": "You have threathened the balance of this world, we shall remove you!",
                 "attacked": ".",
@@ -334,13 +334,13 @@
 
         //Lavrence of Vigilo Order
         {
-                "name": "Vigilo Order",
+                "name": "Orden Vigilo",
                 "leaderName": "Lavrence",
-                "adjective": ["Order"],
+                "adjective": ["Orden"],
                 "preferredVictoryType": "Scientific",
 
-                "startIntroPart1": "Glory upon the Order! Lavrence, your people always strive for knowledge, even the forbidden ones. The Order trains and nurtures the young into a fine Alchemist. Giving them knowledge and mastery of alchemy. Unveiling the secrets of this world little by little. It is now time for your people to surface and be known to the world now it needs a power balance.",
-                "startIntroPart2": "O, Lavrence, the Order relies upon your shoulder. Will you lead the Order into glory and praise? Can you create an era of enlightenment? Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "¡Gloria a la Orden! Lavrence, tu pueblo siempre anhela el conocimiento, incluso el de los secretos prohibidos. La Orden entrena y nutre a los jóvenes para convertirlos en grandes alquimistas, dándoles el saber y el dominio de la alquimia. Revelando los secretos de este mundo poco a poco. Ha llegado el momento de que tu pueblo emerja y sea conocido, en un mundo que necesita un equilibrio de poder.",
+                "startIntroPart2": "Oh, Lavrence, la Orden confía en tus hombros. ¿Guiarás a la Orden hacia la gloria y el reconocimiento? ¿Podrás crear una era de iluminación? ¿Serás capaz de construir una civilización que resista la prueba del tiempo?",
 
                 "declaringWar": "Your uneducated people are insufferable. The Order will lead them better, the Order will guide them better. Wasted potentials are not to be allowed!",
                 "attacked": "I guess some people truly only have 3 braincells. Ah, who am I kidding, it's just you.",
