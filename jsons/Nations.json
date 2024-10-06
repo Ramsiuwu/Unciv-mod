@@ -366,13 +366,13 @@
 
         //Menedaius of Argonautian States
         {
-                "name": "Argonautian States",
+                "name": "Estados argonautas",
                 "leaderName": "Menedaius",
-                "adjective": ["Argonauts"],
+                "adjective": ["Argonauta"],
                 "preferredVictoryType": "Domination",
 
-                "startIntroPart1": "Honorable warrior Menedaius, the leader of the Argonauts. Your reign unites all surrounding smaller states into one unified great nation. Under your rule, they prosper. Your Agoge mandate recruits young and strong descendant of the gods, a demigod, into a great warrior of your caliber, leading them into a path of glory in battle.",
-                "startIntroPart2": "O, Menedaius, your people call upon your name once more. Will you lead them to glory? Will you take Argonautian States into a leading force upon this world? Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "Honorable guerrero Menedaius, líder de los Argonautas. Tu reinado ha logrado unir a todos los pequeños estados circundantes en una gran nación unificada. Bajo tu mando, prosperan y florecen. Tu mandato de la Agoge recluta a jóvenes fuertes, descendientes de los dioses, convirtiéndolos en grandes guerreros de tu calibre y guiándolos por un camino de gloria en la batalla.",
+                "startIntroPart2": "Oh, Menedaius, tu pueblo clama una vez más tu nombre. ¿Los guiarás hacia la gloria? ¿Llevarás a los Estados Argonautas a convertirse en una fuerza líder en este mundo? ¿Podrás construir una civilización que resista la prueba del tiempo?",
 
                 "declaringWar": "In battle we are the most glorious. Let's dance on the battlefield, shall we?.",
                 "attacked": "Oho, a battle you say? Come then, we will strike you down!",
@@ -407,9 +407,9 @@
 
         //Goroth of Pyre Clan
         {
-                "name": "Pyre Clan",
+                "name": "Clan piro",
                 "leaderName": "Goroth",
-                "adjective": ["Demons"],
+                "adjective": ["Demonios"],
                 "preferredVictoryType": "Domination",
 
                 "startIntroPart1": ".",
