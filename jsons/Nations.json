@@ -165,8 +165,8 @@
                 "startBias": ["Coast"],
                 "preferredVictoryType": "Cultural",
 
-                "startIntroPart1": ".",
-                "startIntroPart2": " Can you build a civilization that will stand the test of time?",
+                "startIntroPart1": "Rey Remia, líder delos Sirénidos. Tu pueblo te adora por tu sabiduría y tus logros en las profundidades del océano. Bajo tu reinado, los Sirénidos han prosperado, estableciendo ciudades brillantes y armoniosas en el fondo marino. Conocido por tu capacidad de unir las diversas tribus de Sirénidos, has tejido un legado de paz y cooperación entre los habitantes de las aguas.",
+                "startIntroPart2": "Oh, Rey Remia, tu pueblo te llama una vez más. ¿Lograrás unir a los Sirénidos en tiempos de agitación? ¿Sobrevivirás a las tormentas que amenazan tus dominios? ¿Podrás construir una civilización que perdure a través de las mareas del tiempo?",
 
                 "declaringWar": "The Council has no choice, it is inevitable.",
                 "attacked": "We hope we can reconcile.",
@@ -195,7 +195,7 @@
 
         //Rozagh of Beastmen Empire
         {
-                "name": "Beastmen Empire",
+                "name": "Imperio de las bestias",
                 "leaderName": "Rozagh",
                 "adjective": ["Beastmen"],
                 "preferredVictoryType": "Domination",
