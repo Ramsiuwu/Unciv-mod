@@ -7,7 +7,7 @@
                 "startBias": ["Hill"],
                 "preferredVictoryType": "Scientific",
 
-                "startIntroPart1": ¡El majestuoso Rey Higba, líder del Reino Enano! Tu nación ha entrado en una nueva era gracias a tu reinado. La tierra montañosa del Reino Enano sin duda traerá avances y descubrimientos.",
+                "startIntroPart1": "¡El majestuoso Rey Higba, líder del Reino Enano! Tu nación ha entrado en una nueva era gracias a tu reinado. La tierra montañosa del Reino Enano sin duda traerá avances y descubrimientos.",
                 "startIntroPart2": "Rey Higba, tu mente brillante ha resonado por todas las tierras. ¿Permanecerás imbatible como una montaña? ¿Alcanzarás la cima y protegerás la tierra de los enanos? ¿Podrás construir una civilización que resista la prueba del tiempo?",
 
                 "declaringWar": "You have transgressed our agenda, we won't let you have it your way!",
@@ -159,9 +159,9 @@
 
         //Remia of Merfolk Council
         {
-                "name": "Merfolk Council",
+                "name": "Concilio de los Sirénidos",
                 "leaderName": "Remia",
-                "adjective": ["Merfolk"],
+                "adjective": ["Sirénido"],
                 "startBias": ["Coast"],
                 "preferredVictoryType": "Cultural",
 
